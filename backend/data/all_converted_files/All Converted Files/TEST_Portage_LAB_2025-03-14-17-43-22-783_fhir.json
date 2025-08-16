@@ -1,0 +1,134 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "198",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "198"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN289",
+                        "given": [
+                            "FN289"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1947-11-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAURIUM",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0314C00102R.1L2756745.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "53531-0",
+                            "display": "Microalbumin [Mass/volume] in Urine by Detection limit  lt;= 1.0 mg/L"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/198"
+                },
+                "valueQuantity": {
+                    "value": 6.4,
+                    "unit": "MG/L^MG/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/L^MG/L^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|REFERENCE RANGE NOT DEFINED FOR THIS TEST|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0314C00102R.1L2756745.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "53531-0",
+                            "display": "Microalbumin [Mass/volume] in Urine by Detection limit  lt;= 1.0 mg/L"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/198"
+                },
+                "valueQuantity": {
+                    "value": 4.0,
+                    "unit": "MG/G^MG/G^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/G^MG/G^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 30.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0314C00102R.1L2756745.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "53531-0",
+                            "display": "Microalbumin [Mass/volume] in Urine by Detection limit  lt;= 1.0 mg/L"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/198"
+                },
+                "valueQuantity": {
+                    "value": 130.0,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|REFERENCE RANGE NOT DEFINED FOR THIS TEST|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "24",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "24"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN77",
+                        "given": [
+                            "FN77"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1997-06-25",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRON MOUNTAIN",
+                        "state": "MI",
+                        "postalCode": "49801",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748805LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "TNI",
+                            "display": "Troponin I"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "unit": "ng/mL^ng/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL^ng/mL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.012
+                        },
+                        "high": {
+                            "value": 0.034
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

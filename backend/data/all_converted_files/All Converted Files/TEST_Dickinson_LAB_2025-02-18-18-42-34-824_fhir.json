@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "21",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "21"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN66",
+                        "given": [
+                            "FN66"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2002-03-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25049193995LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CTGC",
+                            "display": "Chlamydia \\T\\ GC Amplified DNA"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/21"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25049193995LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CTGC",
+                            "display": "Chlamydia \\T\\ GC Amplified DNA"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/21"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "1",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "1"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN1",
+                        "given": [
+                            "FN1"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1962-02-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRON RIVER",
+                        "state": "MI",
+                        "postalCode": "49935",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25IR-066C0074Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB383",
+                            "display": "CREATININE, SERUM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1"
+                },
+                "valueQuantity": {
+                    "value": 1.2,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.55
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25IR-066C0074Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB383",
+                            "display": "CREATININE, SERUM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1"
+                },
+                "valueQuantity": {
+                    "value": 68.0,
+                    "unit": "mL/min",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mL/min"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "18",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "18"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Kelly",
+                        "given": [
+                            "Aria"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^3950986",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^3950986",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "49946",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 36.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 27.91,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "T7840XA^Allergic reaction^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/18"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "H6690^Ear infection^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/18"
+                }
+            }
+        }
+    ]
+}

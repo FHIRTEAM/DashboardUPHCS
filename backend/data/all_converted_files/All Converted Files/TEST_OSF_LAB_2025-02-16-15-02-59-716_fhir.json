@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "177",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "177"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN236",
+                        "given": [
+                            "FN236"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1989-10-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-047CH00139",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB735",
+                            "display": "B-TYPE NATRIURETIC PEPTIDE (BNP)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/177"
+                },
+                "valueQuantity": {
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,476 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "26",
+        "name": [
+          {
+            "use": "official",
+            "family": "Gonzalez",
+            "given": [
+              "Scarlett"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0673aee7-e2aa-4e7d-97eb-f980be5ffeef",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76689-9",
+              "display": "Sex Assigned At Birth"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "effectiveDateTime": "20001209"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9adb1a7f-cb6f-4d73-a4ae-c216e91a7b09",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body Mass Index"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 20.78,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "de9e361c-679a-49c8-bd2f-d15fd6839d06",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 105.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015022500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fbf89a88-248d-4a15-9992-e5c852414e55",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 59.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015022500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b3a52728-0b0f-4f10-8faa-da489f85d692",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 141.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "241142d5-04a5-488b-bd58-774f3bf3fa9b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 62.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6ee822a8-e3a6-40f3-8358-0fbb13e00163",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3140-1",
+              "display": "Body Surface"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 1.47,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e6c8f99-2c27-45a8-a97e-2f4270f34e64",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 154.94,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b62a165-d1a2-4c43-b171-c8845ef5d2a4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen Saturation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 99.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015022500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a1c3cebe-2e3c-48ac-a691-e759e4f021e1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen Saturation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 99.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "df6b353e-d0ed-41e1-b637-c41e1ee320a4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 65.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015022500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2d29e7ba-3425-41c9-9ab3-939fcc66c670",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 72.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c9d6f1b6-7868-4e3f-afdb-bc9a1a3e2f90",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 18.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015022500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8daa6d84-5b0e-480c-a141-775d5b2eda23",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 18.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c3218a57-011f-4f83-b9cc-0372d5c0359b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body Temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 36.3,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015022500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c543c842-1172-48c8-b7f0-ef6c71842585",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body Temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 36.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "871bea08-ea9c-45fb-93a3-4a8d2e9ac819",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        },
+        "valueQuantity": {
+          "value": 49.9,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241015005900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0032ce2b-a6c4-444d-9e5f-5dc3a683360f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "ASSERTION",
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26"
+        }
+      }
+    }
+  ]
+}

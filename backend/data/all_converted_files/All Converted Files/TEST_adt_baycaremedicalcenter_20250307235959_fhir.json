@@ -1,0 +1,118 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "161",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "161"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN220",
+                        "given": [
+                            "FN220"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1990-12-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "AU TRAIN",
+                        "state": "MI",
+                        "postalCode": "49806-9643",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z13.31^Encounter for screening for depression^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z76.89^Persons encountering health services in other specified circumstances^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F90.9^Attention-deficit hyperactivity disorder, unspecified type^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                }
+            }
+        }
+    ]
+}

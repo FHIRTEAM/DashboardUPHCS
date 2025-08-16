@@ -1,0 +1,70 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "149",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "149"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN208",
+                        "given": [
+                            "FN208"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1936-02-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "AU TRAIN",
+                        "state": "MI",
+                        "postalCode": "49806-9623",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "C61^Malignant neoplasm of prostate^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/149"
+                }
+            }
+        }
+    ]
+}

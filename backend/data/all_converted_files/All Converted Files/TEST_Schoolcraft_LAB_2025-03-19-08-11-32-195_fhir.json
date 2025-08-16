@@ -1,0 +1,89 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "246",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "246"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN340",
+                        "given": [
+                            "FN340"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1953-04-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GERMFASK",
+                        "state": "MI",
+                        "postalCode": "498369228",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-078-0024",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Vitamin B12 & Folate Level",
+                            "display": "B12 & Folate Lvl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/246"
+                },
+                "valueQuantity": {
+                    "value": 480.0,
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-078-0024",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Vitamin B12 & Folate Level",
+                            "display": "B12 & Folate Lvl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/246"
+                },
+                "valueQuantity": {
+                    "value": 14.5,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                }
+            }
+        }
+    ]
+}

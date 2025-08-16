@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "203",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "203"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN298",
+                        "given": [
+                            "FN298"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1996-01-21",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541123",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-339-0119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Syphilis Total UPHS",
+                            "display": "Syphilis Total UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/203"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|   \\.br\\Test Performed at:\\.br\\UP Health System Marquette\\.br\\850 West Baraga Avenue\\.br\\Marquette, MI 49855-4550\\.br\\Medical Director: Jeffrey Conklin, MD  CLIA: 23D0038098"
+                    }
+                ]
+            }
+        }
+    ]
+}

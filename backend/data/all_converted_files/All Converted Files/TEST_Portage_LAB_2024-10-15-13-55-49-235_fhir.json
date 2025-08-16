@@ -1,0 +1,144 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "189",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "189"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN255",
+                        "given": [
+                            "FN255"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1955-04-19",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1015C00147U.1L2692697.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "50190-8",
+                            "display": "Iron and Iron binding capacity panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/189"
+                },
+                "valueQuantity": {
+                    "value": 110.0,
+                    "unit": "MCG/DL^MCG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MCG/DL^MCG/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 49.0
+                        },
+                        "high": {
+                            "value": 181.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1015C00147U.1L2692697.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "50190-8",
+                            "display": "Iron and Iron binding capacity panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/189"
+                },
+                "valueQuantity": {
+                    "value": 413.0,
+                    "unit": "MCG/DL^MCG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MCG/DL^MCG/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 261.0
+                        },
+                        "high": {
+                            "value": 462.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1015C00147U.1L2692697.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "50190-8",
+                            "display": "Iron and Iron binding capacity panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/189"
+                },
+                "valueQuantity": {
+                    "value": 26.6,
+                    "unit": "%^%^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 15.0
+                        },
+                        "high": {
+                            "value": 50.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,340 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "31",
+        "name": [
+          {
+            "use": "official",
+            "family": "Phillips",
+            "given": [
+              "Elijah"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e2fc70de-67e9-4c04-b260-c7827d19ee12",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76689-9",
+              "display": "Sex Assigned At Birth"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "effectiveDateTime": "20211423"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f6cf8b24-415f-4054-9157-bf2a46f20387",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body Mass Index"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 13.4,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "11801bfb-f4c9-410d-97f6-1c2725f4f6a7",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59576-9",
+              "display": "Body mass index (BMI) [Percentile] Per age and sex"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "092a8c03-7377-42d4-b4b9-614b9c35d164",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3140-1",
+              "display": "Body Surface"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 0.56,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0bd8c68e-248a-4b50-943d-a1f7f3e665bc",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 95.25,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "35fade00-8bbc-4aec-b17f-926d373109ac",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen Saturation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 97.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "77a71643-150e-404b-9b79-98fa2ba37cc6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 123.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "83524633-a601-4f99-9ea6-5226667b7995",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 32.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e073ef73-a02e-4cb5-8653-ed51d92a6ced",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body Temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 37.3,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3281f3a1-7ba0-4c0b-9022-04e7c4b7bf22",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 12.16,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "956ba9e6-96e5-4f81-9bb8-3f0956463d2f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "77606-2",
+              "display": "Weight-for-length per age per sex"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241018193000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7cf2fe7a-ee3c-4a8c-83d5-31e3a0db0c9c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "ASSERTION",
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a54ac0e9-e01d-486b-8233-eba5284ae193",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "41458-1",
+              "display": "RESPIRATORY PANEL W/COVID"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/31"
+        },
+        "effectiveDateTime": "20241018"
+      }
+    }
+  ]
+}

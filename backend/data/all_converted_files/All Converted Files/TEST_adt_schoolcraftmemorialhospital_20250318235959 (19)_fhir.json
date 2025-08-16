@@ -1,0 +1,118 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "236",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "236"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN330",
+                        "given": [
+                            "FN330"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1963-10-01",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GULLIVER",
+                        "state": "MI",
+                        "postalCode": "49840-9052",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "C25.9^Malignant neoplasm of pancreas, unspecified^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/236"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "C34.12^Malignant neoplasm of upper lobe, left bronchus or lung^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/236"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R35.0^Frequency of micturition^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/236"
+                }
+            }
+        }
+    ]
+}

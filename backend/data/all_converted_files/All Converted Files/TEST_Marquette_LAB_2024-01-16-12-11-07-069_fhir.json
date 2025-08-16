@@ -1,0 +1,90 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "30",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "30"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN93",
+                        "given": [
+                            "FN93"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1991-06-15",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24015483612LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "OHD",
+                            "display": "Vitamin D 25 Hydroxy"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/30"
+                },
+                "valueQuantity": {
+                    "value": 18.2,
+                    "unit": "ng/mL^ng/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL^ng/mL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|INTERPRETATION:|RE"
+                    },
+                    {
+                        "text": "L|<15.0\t\t\tDeficiency|RE"
+                    },
+                    {
+                        "text": "L|15.0-30.0\t\tInsufficiency|RE"
+                    },
+                    {
+                        "text": "L|30.1-100.0\t\tSufficiency|RE"
+                    },
+                    {
+                        "text": "L|>100.0\t\t\tPossibly Toxicity|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 30.1
+                        },
+                        "high": {
+                            "value": 100.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

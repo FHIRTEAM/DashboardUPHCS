@@ -1,0 +1,99 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "1",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "1"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN1",
+                        "given": [
+                            "FN1"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1962-02-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HONOLULU",
+                        "state": "HI",
+                        "postalCode": "96814",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-239C0541Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10112",
+                            "display": "VITAMIN B12 AND FOLATE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1"
+                },
+                "valueQuantity": {
+                    "value": 305.0,
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 232.0
+                        },
+                        "high": {
+                            "value": 1245.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-239C0541Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10112",
+                            "display": "VITAMIN B12 AND FOLATE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1"
+                },
+                "valueQuantity": {
+                    "value": 15.4,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                }
+            }
+        }
+    ]
+}

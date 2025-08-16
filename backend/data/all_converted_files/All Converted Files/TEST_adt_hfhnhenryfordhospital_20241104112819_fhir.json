@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "72",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "72"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Ross",
+                        "given": [
+                            "Penelope"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1959-04-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "239^Cirrhosis^HRV"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/72"
+                }
+            }
+        }
+    ]
+}

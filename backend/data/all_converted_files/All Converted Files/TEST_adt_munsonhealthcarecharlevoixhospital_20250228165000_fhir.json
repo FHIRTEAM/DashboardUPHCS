@@ -1,0 +1,94 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "321",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "321"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN394",
+                        "given": [
+                            "FN394"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2011-02-17",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CHARLEVOIX",
+                        "state": "MI",
+                        "postalCode": "49720-1613",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F32.A^Depression, unspecified^I10C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/321"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F41.1^Generalized anxiety disorder^I10C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/321"
+                }
+            }
+        }
+    ]
+}

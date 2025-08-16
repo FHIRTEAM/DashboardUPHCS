@@ -1,0 +1,716 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "82",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "82"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Jenkins",
+                        "given": [
+                            "Wyatt"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1962-08-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 140.0,
+                    "unit": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 136.0
+                        },
+                        "high": {
+                            "value": 145.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 3.8,
+                    "unit": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 106.0,
+                    "unit": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 96.0
+                        },
+                        "high": {
+                            "value": 107.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 26.0,
+                    "unit": "^^UCUM^MM/L^MM/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "^^UCUM^MM/L^MM/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 21.0
+                        },
+                        "high": {
+                            "value": 32.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 12.2,
+                    "unit": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "meq/L^MilliEquivalentsPerLiter [Substance Concentration Units]^UCUM^MEQ/L^MEQ/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 14.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 21.0,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 18.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 1.2,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.6
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 69.0,
+                    "unit": "^^UCUM^mL/min^mL/min^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "^^UCUM^mL/min^mL/min^L^1.1^V1"
+                },
+                "note": [
+                    {
+                        "text": "L|**:|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|The 2021 CKD-EPI equation is now the recommended standard.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|This version does not include race, as do the 2009 and 2012|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|CKD-EPI creatinine and creatinine-cystatin C equations.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|For the same creatinine value, the 2021 equation will|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|estimate a lower GFR for Black patients and a higher GFR for|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|non-Black patients as compared to previous calculations.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Calculated GFR:|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|This calculated GFR is advocated by the National Kidney|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Foundation to be used as an indicator of Chronic Kidney|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Disease (CKD). 5 Stages of Chronic Kidney Disease.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Stage 1: 90 mL/min or more: Healthy kidneys or Kidney damage|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|                with normal or high GFR details|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Stage 2: 60 to 89 mL/min: Kidney damage and mild decrease|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|                in GFR details|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Stage 3: 30 to 59 mL/min: Moderate decrease in GFR details|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Stage 4: 15 to 29 mL/min: Severe decrease in GFR details|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Stage 5: Less than 15 mL/min: On dialysis or Kidney failure|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|PATIENT\\X92\\S CLINICAL STATUS MUST BE CONSIDERED FOR THE CARE OF|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|YOUR PATIENT.|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 109.0,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^mg/dl^mg/dl^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^mg/dl^mg/dl^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 70.0
+                        },
+                        "high": {
+                            "value": 110.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 8.5,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.5
+                        },
+                        "high": {
+                            "value": 10.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 0.7,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.1
+                        },
+                        "high": {
+                            "value": 1.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 33.0,
+                    "unit": "U/L^enzyme unit per liter^UCUM^U/L^U/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^enzyme unit per liter^UCUM^U/L^U/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 15.0
+                        },
+                        "high": {
+                            "value": 37.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 43.0,
+                    "unit": "U/L^enzyme unit per liter^UCUM^U/L^U/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^enzyme unit per liter^UCUM^U/L^U/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 15.0
+                        },
+                        "high": {
+                            "value": 50.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 7.9,
+                    "unit": "g/dL^GramsPerDeciLiter [Mass Concentration Units]^UCUM^G/DL^G/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^GramsPerDeciLiter [Mass Concentration Units]^UCUM^G/DL^G/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.4
+                        },
+                        "high": {
+                            "value": 8.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 3.2,
+                    "unit": "g/dL^GramsPerDeciLiter [Mass Concentration Units]^UCUM^G/DL^G/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^GramsPerDeciLiter [Mass Concentration Units]^UCUM^G/DL^G/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.4
+                        },
+                        "high": {
+                            "value": 5.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 64.0,
+                    "unit": "U/L^enzyme unit per liter^UCUM^U/L^U/L^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^enzyme unit per liter^UCUM^U/L^U/L^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 46.0
+                        },
+                        "high": {
+                            "value": 116.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0501C00005R-2LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "1968-7",
+                            "display": "Bilirubin.direct [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/82"
+                },
+                "valueQuantity": {
+                    "value": 0.17,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^MG/DL^MG/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.3
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "202",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "202"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN297",
+                        "given": [
+                            "FN297"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1977-01-21",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498548816",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-338-0039",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Glucose POCT",
+                            "display": "POCT Glucose"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/202"
+                },
+                "valueQuantity": {
+                    "value": 122.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

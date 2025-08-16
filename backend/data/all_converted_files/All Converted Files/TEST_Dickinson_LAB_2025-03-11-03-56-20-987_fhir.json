@@ -1,0 +1,82 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "25",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "25"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN81",
+                        "given": [
+                            "FN81"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1984-08-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "KINGSFORD",
+                        "state": "MI",
+                        "postalCode": "49802",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1749477LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "TNI",
+                            "display": "Troponin I"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/25"
+                },
+                "valueQuantity": {
+                    "value": 2.88,
+                    "unit": "ng/mL^ng/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL^ng/mL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|The DIAGNOSTIC CUTOFF for AMI is 0.120 ng/mL.|RE"
+                    },
+                    {
+                        "text": "L|At this cutoff, the manufacturer reports a sensitivity for the Vitros Troponin ES assay of 95% and a specificity of 93%.  The 99th percentile of the upper limit of normal is 0.034 ng/mL.  Patients with baseline values above this limit are reported to have significantly higher short-term risk of death or recurrent ischemic events after presentation.|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.012
+                        },
+                        "high": {
+                            "value": 0.034
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

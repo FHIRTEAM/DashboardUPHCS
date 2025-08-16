@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "208",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "208"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN303",
+                        "given": [
+                            "FN303"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-09-20",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541539",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-006-0035",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Ferritin",
+                            "display": "Ferritin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/208"
+                },
+                "valueQuantity": {
+                    "value": 86.0,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                }
+            }
+        }
+    ]
+}

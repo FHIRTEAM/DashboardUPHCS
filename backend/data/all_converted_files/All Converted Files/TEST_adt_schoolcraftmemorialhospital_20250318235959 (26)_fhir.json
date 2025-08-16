@@ -1,0 +1,70 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "225",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "225"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN89",
+                        "given": [
+                            "FN89"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1976-12-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MC MILLAN",
+                        "state": "MI",
+                        "postalCode": "49853-9280",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E04.1^Nontoxic single thyroid nodule^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/225"
+                }
+            }
+        }
+    ]
+}

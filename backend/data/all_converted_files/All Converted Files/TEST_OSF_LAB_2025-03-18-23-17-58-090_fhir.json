@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "183",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "183"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN241",
+                        "given": [
+                            "FN241"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1932-07-17",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "WELLS",
+                        "state": "MI",
+                        "postalCode": "49894",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-077CH00323",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB735",
+                            "display": "B-TYPE NATRIURETIC PEPTIDE (BNP)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/183"
+                },
+                "valueQuantity": {
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                }
+            }
+        }
+    ]
+}

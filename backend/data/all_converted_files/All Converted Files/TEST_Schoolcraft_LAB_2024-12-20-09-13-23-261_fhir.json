@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "207",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "207"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN302",
+                        "given": [
+                            "FN302"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1975-09-09",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "498419613",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-354-0063",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Rubeola IgG Antibody UPHS",
+                            "display": "Rubeola IgG Antibody UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/207"
+                },
+                "valueQuantity": {
+                    "value": 4.6,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|Rubeola(Measles): 1.1-8.0 = Positive, 0.9-1.0 = Equivocal,\\.br\\0.2-0.8 = Negative\\.br\\   \\.br\\Test Performed at:\\.br\\UP Health System Marquette\\.br\\850 West Baraga Avenue\\.br\\Marquette, MI 49855-4550\\.br\\Medical Director: Jeffrey Conklin, MD  CLIA: 23D0038098"
+                    }
+                ]
+            }
+        }
+    ]
+}

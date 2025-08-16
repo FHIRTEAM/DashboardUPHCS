@@ -1,0 +1,105 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "196",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "196"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN279",
+                        "given": [
+                            "FN279"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1946-11-07",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0306C00053R.1L2752456.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2164-2",
+                            "display": "Creatinine renal clearance in 24 hour Urine and Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/196"
+                },
+                "valueQuantity": {
+                    "value": 22.1,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|REFERENCE RANGE NOT DEFINED FOR THIS TEST|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|HT = 79\"  WT = 209.2 LBS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|VOLUME = 1900 MLS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0306C00053R.2L2752456.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2889-4",
+                            "display": "Protein[Mass/time] in 24 hour Urine"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/196"
+                },
+                "valueQuantity": {
+                    "value": 95.0,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|REFERENCE RANGE NOT DEFINED FOR THIS TEST|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ]
+            }
+        }
+    ]
+}

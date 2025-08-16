@@ -1,0 +1,2761 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "14",
+        "name": [
+          {
+            "use": "official",
+            "family": "Scott",
+            "given": [
+              "Mia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "07b0ff80-0a3a-473c-9dc0-b56265873b85",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "Urine Sample"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "29bfb9f0-4aea-4ed6-814c-3a3ecb3f35b1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5778-6",
+              "display": "Color"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7efa1f53-f40e-447e-82f9-361c65ac5d83",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32167-9",
+              "display": "CLARITY"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "00351da8-37e5-4e18-b822-370f5410742a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5811-5",
+              "display": "Spec Gravity"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "998a1999-75d6-4379-9f6b-710c62d9aa89",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5803-2",
+              "display": "ph"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "50d5d597-e99d-4903-88e7-fcb6a9de40fb",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5792-7",
+              "display": "Glucose"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a62144f7-ea7b-4e62-87ce-2b16d7d1bfcc",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5770-3",
+              "display": "Bilirubin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d07c4b44-9ca4-48ac-a9cd-966787fce526",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "19161-9",
+              "display": "Urobilinogen"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "36559b9b-ad75-4ce1-930d-27fe010a1f58",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5797-6",
+              "display": "Ketone"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "579b99e2-aab0-4585-97c6-4bb855cb273f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5804-0",
+              "display": "Protein"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0a5dcceb-812f-42dc-95a7-89957b2ec66f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5802-4",
+              "display": "Nitrite"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "999afa24-8a7c-489c-887b-445d0a22db7a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5794-3",
+              "display": "Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "84e80c38-646e-409c-87ee-b0efe851a806",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5799-2",
+              "display": "Leuk Est"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "632d79e6-a0a9-4b21-99e7-567d667374bd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11277-1",
+              "display": "Epith Cells"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "03dbd2e9-d3e3-4671-b7ec-aabaa8d1caef",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "26052-1",
+              "display": "Renal Epi"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4d1fd135-e007-4f11-ab11-3e14236890dc",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "57747-8",
+              "display": "Rbc"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f4b6eaaa-b7d7-4770-b748-a00db997a796",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5821-4",
+              "display": "Wbc"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "71612ba5-bdbe-4d42-93ce-693baf25bc3e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "46421-4",
+              "display": "Mucous"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "59967d48-83d1-42a4-a7ee-9af1ae1abc64",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5769-5",
+              "display": "Bacteria"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ea0d2eee-c425-4d3d-b9bc-2246a8d10a49",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "24124-0",
+              "display": "Casts"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5d9bb722-311e-4a7e-aa6a-93a5baab1526",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5782-8",
+              "display": "Crystals"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "57a60c42-ce72-4e50-97f2-45c80e6ef16a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "25148-8",
+              "display": "Calcium Ox"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6a169d3d-eb5e-4885-8f17-7d1aee200788",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "46137-6",
+              "display": "Triple Phos"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e995ddd-3559-4c89-9f06-7ad8759ea99e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "25144-7",
+              "display": "Ammon Urate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fa9409ed-ef2c-4297-bd91-871175b45697",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "46138-4",
+              "display": "Uric Acid"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "89d63650-d176-4c8a-960e-1845cd958a05",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "25149-6",
+              "display": "Calcium Phos"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9d65e1a9-26c0-4f91-ba14-d5263ef57d7e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55368-5",
+              "display": "Amorphous"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c7a8c619-8dbf-4edc-8a0c-80a1afc987f4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5822-2",
+              "display": "Yeast"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017184700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d8db597f-9e30-45c2-9bdf-200870f056ff",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "LACTIC ACID"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 1.7,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017175000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c44b85a0-b898-4b9b-a27d-f01a763dba7d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "16362-6",
+              "display": "AMMONIA"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 94.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017175000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "219b8971-bf2f-4dc2-8669-abcdfb46b8f1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "SARS CoV2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017175000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d18d040a-b5b2-4c96-83e4-f4572e187b87",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "31858-4",
+              "display": "INFLUENZA A"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017175000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3f0a7a7e-1856-40c2-9513-187e33c016fc",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "31863-4",
+              "display": "INFLUENZA B"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017175000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e9cc01ef-d98e-4808-a4b4-5538819051ad",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "RSV"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017175000-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1af8f375-26de-4530-9a0b-7cbf0aad3edf",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "883-9",
+              "display": "ABO GROUP"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017145700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9b6d0ea5-e805-497f-ad0b-5ec4a30c4ce7",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10331-7",
+              "display": "RH FACTOR"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017145700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "51535eaf-9628-482b-a7a9-9c51e235ddd6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "890-4",
+              "display": "ANTIBODY SCRN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017145700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "024c4c70-76e3-4504-8886-f3b61cb27db5",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14979-9",
+              "display": "PTT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 46.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad60c0b5-06b5-417c-aa0c-4b298140ceea",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2746-6",
+              "display": "VPh"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "87fa90ff-2d2d-422f-a451-026561852030",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2021-4",
+              "display": "VPCO2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 28.7,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "83ef2c55-3a61-4a39-9af5-813e67448dee",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14627-4",
+              "display": "VHCO3"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 13.9,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1f7b1b54-fcd0-42ca-a8e2-4eb23ea53b23",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 12.4,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3a38dc4f-be6d-4fb2-bb57-c312e1a54519",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "751-8",
+              "display": "#NEUT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 10.3,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0bf56852-41cd-475f-b799-67f4f6358983",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "770-8",
+              "display": "%NEUT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 82.5,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a7cf79a4-e0b0-42ef-a770-cadce6b30658",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "731-0",
+              "display": "#LYMPH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d9c54a2b-d275-49fd-8235-76c43ab2b4a2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "736-9",
+              "display": "%LYMPH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 5.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cb0fb3d4-0807-4af6-b864-e3a199aa2812",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "742-7",
+              "display": "#MONO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c5110932-e299-474b-afc9-b05174ab0173",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5905-5",
+              "display": "%MONO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 8.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "980c7b3a-5ed6-450b-9962-266f7d2673c4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "711-2",
+              "display": "#EOS"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "be13df2b-d4f0-455e-b4d0-5a13430d3986",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "713-8",
+              "display": "%EOS"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "887598a6-f19f-43ec-a54d-a7a3867ca706",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "704-7",
+              "display": "#BASO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 0.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cb56d042-c3b5-43d6-a93e-d542bacf192c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "706-2",
+              "display": "%BASO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "38564fdb-d40a-4961-bc5b-4e6293b34eb7",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "789-8",
+              "display": "RBC"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 2.72,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "317d2e8d-b10e-4eb8-bd83-ae68f49c2ebf",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "HEMOGLOBIN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 7.9,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "09ee814a-ebeb-4e6a-9533-d268e9423bf4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "READ BACK BY:"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1c2952fc-364c-4545-a177-9a07f1d4924d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "HEMATOCRIT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 21.8,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b999a7f6-5607-4ae5-9a27-91c45d5c8340",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 80.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e6626991-8ba9-4f5f-ae2c-30acd72da1f0",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 29.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "73c51e50-0d27-41e8-8752-7e3778624e45",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 36.2,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "19b3272e-b691-489e-81c0-6b58c533645b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "21000-5",
+              "display": "RDW"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 19.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4920026a-8bb9-4244-864c-e782b56c9629",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "PLATELETS"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 122.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cd2fef92-6a06-4832-b39b-fa2298993b54",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "50957-0",
+              "display": "MANUAL DIFF"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b79f84e7-ce94-463f-9a8c-6f4b221009a6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5902-2",
+              "display": "PT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 25.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d198fc2e-9524-4f2a-a31a-0e7a1c840599",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6301-6",
+              "display": "INR"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b723b912-df6c-4b78-bd1b-ea6f6ac35efe",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "BNP NOT PRO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 692.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "00355e7e-ce6c-4220-b74c-74f3ea754478",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "GLUCOSE"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 71.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2348375f-62ae-49d9-aa27-3194438c52ff",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "BUN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 79.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1865b425-1120-43a4-ac3a-ae97b24c769e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "CREATININE"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 7.88,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "55c09f37-5893-4b71-9549-e6a6a0257cbd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "READ BACK BY:"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "11e16b53-42f3-40aa-b6b4-6c6bcd839a5c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3097-3",
+              "display": "BUN/CREAT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "11753da4-6913-4e43-93ab-47f7e8c04ace",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "SODIUM"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 130.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4a412a85-0aba-40ee-b92b-0b074e101cf5",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "POTASSIUM"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 5.8,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "780756b4-3861-4c2c-b524-c7adeb063986",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2075-0",
+              "display": "CHLORIDE"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 104.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "70c556a7-63d0-447f-9646-75f13207bfaa",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "CO2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 14.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b95cc1b9-40f2-49cb-9cdf-a6e4f67e842c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33037-3",
+              "display": "ANION GAP"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "966dc186-16cc-4af7-ba29-c5e910f70168",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "17861-6",
+              "display": "CALCIUM"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 7.8,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "602b8ee1-48bc-4b41-aa15-1b75e8149f8b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2885-2",
+              "display": "TOTAL PROTEIN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 5.8,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "16f0147c-f402-4f9b-8efe-b34ad3acdb79",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "ALBUMIN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 1.7,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1eab98be-df23-4420-a918-8b4f3f9bd3d7",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1759-0",
+              "display": "GLOBULIN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "48c62e98-0ede-429f-9612-10a5e7be6bc0",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1759-0",
+              "display": "A/G RATIO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "937cd381-fd15-4dd4-9a61-ad3090b2a411",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "30239-8",
+              "display": "SGOT/AST"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 152.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a49be7f1-fdb4-45f7-bd8e-a80534b45cb4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1743-4",
+              "display": "SGPT/ALT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 74.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "be6ec153-bfe8-425e-96b4-7df57912253b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "ALKALINE PHOS"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 228.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "512880ef-c50d-417f-8362-f9084c32114d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "TOTAL BILI"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 24.4,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6141f4c6-9f12-4931-8193-df292bc30fc8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "READ BACK BY:"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fa633434-3b6c-4777-8449-a7e0c57ff87f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "Age"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 67.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d6cece6c-1e0b-400c-8f0a-0b8baa58de08",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48643-1",
+              "display": "EST GFR AA"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0a2f29fc-6ffb-45a5-bfc0-151f902db016",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48642-3",
+              "display": "ES GFR NON AA"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85062391-ae5c-41fb-8940-ea8e773db0e8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "LACTIC ACID"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 3.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b0c1617-3a93-40c8-aa8a-0a52927d7476",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "TROP I ADV"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 0.014,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6932d9c8-fb28-4da6-89f8-718ac35227df",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "PROCALCITONIN"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 1.88,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bd451d9f-05d7-464c-8db7-1708c6cde0a1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48058-2",
+              "display": "D-DIMER QUANT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 4360.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "599b8d43-cc45-4584-bd3f-e84845426133",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "READ BACK BY:"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "03e409bd-4e24-4e7b-af0a-cf4f4e6ba738",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3040-3",
+              "display": "LIPASE"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 102.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017141300-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2043ea8e-24f5-4762-b00f-17abf2ec3d62",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": "CT CHEST ABDOMEN AND PELVIS WO"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fa24d54f-d348-4b9c-af5d-720230b80db2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70450",
+              "display": "CT HEAD W/O"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "511146e5-8bda-4dad-b03d-615f9b409134",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco Smoking Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9c05b4b2-8e6b-4b99-b6f0-7127214ecbcc",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76689-9",
+              "display": "Sex Assigned At Birth"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "19561303"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "56499c0d-4210-47be-acca-c87dd37c2a54",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body Mass Index"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 25.79,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2ced9a92-cd72-42e5-ba16-a9295a245ce8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 94.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017191500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d457c4da-77e5-401f-a70e-2f9df42efdbf",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 55.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017191500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b032a895-fbd6-4e4e-a397-f19a77e4b471",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 63.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aa243d72-a6f4-4f77-ba99-ec33e7130733",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 27.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1324bdc4-0387-423f-9ceb-f1b01890c05b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3140-1",
+              "display": "Body Surface"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 1.8,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fcf52f4d-a131-4d85-a810-9ae50eb742bf",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 165.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b6d08ee-215e-4b4e-8eb8-840b7f0234fd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen Saturation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 95.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017191500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bdbb8c15-9906-44ad-b1ad-4f2668c47089",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen Saturation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 100.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4e3729a8-a2aa-440b-9af5-3d8fe73ed836",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3151-8",
+              "display": "Inhaled Oxygen Flowrate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 4.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4d0399c0-bbef-472b-b605-ccb0ad59120f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 50.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017191500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d876086e-731c-464e-a5b6-f15121834b34",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 72.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "623e736b-b922-49c7-ac49-764518ed87db",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 20.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017191500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "17407703-9811-4ca9-af40-c887a3d1bfe5",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory Rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 20.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "298554c1-5cda-480c-84e2-3416b22e69ae",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body Temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 36.7,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017191500-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6242f06b-5cdb-4f32-a495-74ba1ee76b08",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body Temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 35.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b6fc813-ee6a-401e-b65b-3cdf589c9740",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "valueQuantity": {
+          "value": 70.31,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20241017143700-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e283fdea-2893-4f14-8f42-aec611beae17",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "ASSERTION",
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f865ab03-e6ea-4594-b4a2-1cac135b67fd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "630-4",
+              "display": "UA CULTURE"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2b500f92-ffdb-4de6-a047-29f6e64f3dde",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "600-7",
+              "display": "CULT BLOOD 2 BTL"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/14"
+        },
+        "effectiveDateTime": "20241017"
+      }
+    }
+  ]
+}

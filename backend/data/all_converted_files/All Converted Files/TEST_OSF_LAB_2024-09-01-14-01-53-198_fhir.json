@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "175",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "175"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN234",
+                        "given": [
+                            "FN234"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1979-02-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-241MC00033",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB899",
+                            "display": "CULTURE, BLOOD"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/175"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

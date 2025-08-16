@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "23",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "23"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN71",
+                        "given": [
+                            "FN71"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1966-05-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CRYSTAL FALLS",
+                        "state": "MI",
+                        "postalCode": "49920",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "3632269H22710LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ESR",
+                            "display": "Sedimentation Rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/23"
+                },
+                "valueQuantity": {
+                    "value": 38.0,
+                    "unit": "mm/hr^mm/hr^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm/hr^mm/hr^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 30.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

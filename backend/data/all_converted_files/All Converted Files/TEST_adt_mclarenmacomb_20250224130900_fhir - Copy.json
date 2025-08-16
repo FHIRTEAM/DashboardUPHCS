@@ -1,0 +1,171 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "315",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "315"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN378",
+                        "given": [
+                            "FN378"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2005-05-02",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NEW BALTIMORE",
+                        "state": "MI",
+                        "postalCode": "48051",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "DT"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 20250223.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "DT"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 20250223.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R56.9^Unspecified convulsions^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/315"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F41.9^Anxiety disorder, unspecified^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/315"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "G40.909^Epilepsy, unspecified, not intractable, without status epilepticus^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/315"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R11.2^Nausea with vomiting, unspecified^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/315"
+                }
+            }
+        }
+    ]
+}

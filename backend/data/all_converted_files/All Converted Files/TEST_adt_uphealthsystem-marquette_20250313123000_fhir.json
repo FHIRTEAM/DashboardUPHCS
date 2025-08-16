@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "105",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "105"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN164",
+                        "given": [
+                            "FN164"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1957-03-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "SKANDIA",
+                        "state": "MI",
+                        "postalCode": "498859408",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "M48.02^Spinal stenosis, cervical region^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/105"
+                }
+            }
+        }
+    ]
+}

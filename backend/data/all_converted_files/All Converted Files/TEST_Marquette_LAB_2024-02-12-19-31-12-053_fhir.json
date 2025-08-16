@@ -1,0 +1,145 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "34",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "34"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN97",
+                        "given": [
+                            "FN97"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1979-04-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24043645999LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "B12FO",
+                            "display": "Vitamin B12 and Folate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/34"
+                },
+                "valueQuantity": {
+                    "value": 9.4,
+                    "unit": "ng/mL^ng/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL^ng/mL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|This test may exhibit interference when sample is collected from a|RE"
+                    },
+                    {
+                        "text": "L|person who is consuming a supplement containing biotin.  It is|RE"
+                    },
+                    {
+                        "text": "L|recommended to ask all patients who may be indicated for this test about|RE"
+                    },
+                    {
+                        "text": "L|biotin supplementation.  If biotin interference is suspected, consider|RE"
+                    },
+                    {
+                        "text": "L|instructing patients to stop biotin consumption at least 7 days and|RE"
+                    },
+                    {
+                        "text": "L|retest.|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 2.8
+                        },
+                        "high": {
+                            "value": 20.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24043645999LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "B12FO",
+                            "display": "Vitamin B12 and Folate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/34"
+                },
+                "valueQuantity": {
+                    "value": 974.0,
+                    "unit": "pg/mL^pg/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL^pg/mL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|This test may exhibit interference when sample is collected from a|RE"
+                    },
+                    {
+                        "text": "L|person who is consuming a supplement containing biotin.  It is|RE"
+                    },
+                    {
+                        "text": "L|recommended to ask all patients who may be indicated for this test about|RE"
+                    },
+                    {
+                        "text": "L|biotin supplementation.  If biotin interference is suspected, consider|RE"
+                    },
+                    {
+                        "text": "L|instructing patients to stop biotin consumption at least 7 days and|RE"
+                    },
+                    {
+                        "text": "L|retest.|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 239.0
+                        },
+                        "high": {
+                            "value": 931.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

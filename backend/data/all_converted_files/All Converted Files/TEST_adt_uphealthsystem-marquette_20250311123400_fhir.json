@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "388",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "388"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN202",
+                        "given": [
+                            "FN202"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1966-06-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "498559574",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I20.0^Unstable angina^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/388"
+                }
+            }
+        }
+    ]
+}

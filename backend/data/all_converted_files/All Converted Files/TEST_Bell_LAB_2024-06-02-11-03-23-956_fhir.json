@@ -1,0 +1,650 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "78",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "78"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Coleman",
+                        "given": [
+                            "Stella"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1987-08-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 11.6,
+                    "unit": "10*3/uL^ThousandsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\3/UL^10\\S\\3/UL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL^ThousandsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\3/UL^10\\S\\3/UL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.8
+                        },
+                        "high": {
+                            "value": 10.8
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 5.04,
+                    "unit": "10*6/uL^MillionsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\6/UL^10\\S\\6/UL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*6/uL^MillionsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\6/UL^10\\S\\6/UL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.2
+                        },
+                        "high": {
+                            "value": 5.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 12.5
+                        },
+                        "high": {
+                            "value": 15.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 43.5,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 37.0
+                        },
+                        "high": {
+                            "value": 47.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 86.3,
+                    "unit": "^^UCUM^FL^FL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "^^UCUM^FL^FL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 80.0
+                        },
+                        "high": {
+                            "value": 95.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 28.2,
+                    "unit": "pg^PicoGram [SI Mass Units]^UCUM^PG^PG^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg^PicoGram [SI Mass Units]^UCUM^PG^PG^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 26.6
+                        },
+                        "high": {
+                            "value": 31.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 32.6,
+                    "unit": "g/dL^GramsPerDeciLiter [Mass Concentration Units]^UCUM^G/DL^G/DL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^GramsPerDeciLiter [Mass Concentration Units]^UCUM^G/DL^G/DL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 30.4
+                        },
+                        "high": {
+                            "value": 35.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 12.3,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.4
+                        },
+                        "high": {
+                            "value": 14.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 309.0,
+                    "unit": "10*3/uL^ThousandsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\3/UL^10\\S\\3/UL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL^ThousandsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\3/UL^10\\S\\3/UL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 165.0
+                        },
+                        "high": {
+                            "value": 400.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 10.8,
+                    "unit": "^^UCUM^FL^FL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "^^UCUM^FL^FL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.4
+                        },
+                        "high": {
+                            "value": 10.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 72.3,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 43.7
+                        },
+                        "high": {
+                            "value": 75.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 22.2,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 15.5
+                        },
+                        "high": {
+                            "value": 42.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 3.6,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.9
+                        },
+                        "high": {
+                            "value": 10.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 1.4,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 5.4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 0.2,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 1.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 0.3,
+                    "unit": "%^percent^UCUM^%^%^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^percent^UCUM^%^%^L^1.1^V1"
+                },
+                "note": [
+                    {
+                        "text": "L|Includes Promyelocytes, Myelocytes, and Metamyelocytes.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Band Neutrophils are NOT included in IG%.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Bands are included in the Neutrophil%.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Preliminary studies have indicated the IG% shows promise as|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|an early screen for infection.|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.8
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0602H00006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "57021-8",
+                            "display": "CBC W Auto Differential panel - Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 8.38,
+                    "unit": "10*3/uL^ThousandsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\3/UL^10\\S\\3/UL^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL^ThousandsPerMicroLiter [Number Concentration Units]^UCUM^10\\S\\3/UL^10\\S\\3/UL^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.4
+                        },
+                        "high": {
+                            "value": 6.6
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

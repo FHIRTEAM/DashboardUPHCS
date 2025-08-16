@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "95",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "95"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN154",
+                        "given": [
+                            "FN154"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1995-08-09",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "498559773",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "J45.901^Unspecified asthma with (acute) exacerbation^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/95"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "203",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "203"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN298",
+                        "given": [
+                            "FN298"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1996-01-21",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "49854-1204",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R30.0^Dysuria^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/203"
+                }
+            }
+        }
+    ]
+}

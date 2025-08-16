@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "12",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "12"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN38",
+                        "given": [
+                            "FN38"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1999-07-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25BC0000161S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "600-7",
+                            "display": "Bacteria identified in Blood by Culture"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "136",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "136"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN195",
+                        "given": [
+                            "FN195"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1998-02-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "49855",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "J10.1^Influenza due to other identified influenza virus with other respiratory manifestations^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/136"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "D64.9^Anemia, unspecified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/136"
+                }
+            }
+        }
+    ]
+}

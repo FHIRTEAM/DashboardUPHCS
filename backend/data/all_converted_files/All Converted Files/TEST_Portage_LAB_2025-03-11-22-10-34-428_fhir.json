@@ -1,0 +1,85 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "197",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "197"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN285",
+                        "given": [
+                            "FN285"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-05-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0311C00244U.1L2755311.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "14118-4",
+                            "display": "Lactate [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/197"
+                },
+                "valueQuantity": {
+                    "value": 1.3,
+                    "unit": "MMOL/L^MMOL/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MMOL/L^MMOL/L^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|PATIENTS ADMINISTERED NAC (N-ACETYLCYSTEINE) COULD |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|POTENTIALLY HAVE BIASED URIC ACID, TRIGLYCERIDE, AND LACTIC |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|ACID SAMPLE RESULTS. CLINICAL CORRELATION IS RECOMMENDED.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.7
+                        },
+                        "high": {
+                            "value": 2.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

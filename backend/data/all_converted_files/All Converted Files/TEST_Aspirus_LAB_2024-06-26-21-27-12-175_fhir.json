@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "188",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "188"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Mack",
+                        "given": [
+                            "Brian"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1998-10-09",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-176C1009Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB473",
+                            "display": "HIV-1 AND HIV-2 ANTIBODIES, 4 GENERATION REFLEX TO AB DIFFERENTIATION AND HIV 1 QUANTITATION"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/188"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

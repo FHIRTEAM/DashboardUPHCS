@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "226",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "226"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN320",
+                        "given": [
+                            "FN320"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1962-05-09",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541675",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-063-0030",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Allergen Specific IgE MOL",
+                            "display": "Allergen Specific IgE MOL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/226"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|Report added"
+                    },
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    },
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

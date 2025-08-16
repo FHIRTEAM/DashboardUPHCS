@@ -1,0 +1,83 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "36",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "36"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN99",
+                        "given": [
+                            "FN99"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2002-09-02",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24120102790LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "RPR",
+                            "display": "RPR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/36"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24120102790LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "RPR",
+                            "display": "RPR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/36"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

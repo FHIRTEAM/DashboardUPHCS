@@ -1,0 +1,79 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "26",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "26"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN83",
+                        "given": [
+                            "FN83"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1970-09-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "FELCH",
+                        "state": "MI",
+                        "postalCode": "49831",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210266LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "TSH",
+                            "display": "TSH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/26"
+                },
+                "valueQuantity": {
+                    "value": 1.04,
+                    "unit": "uIU/mL^uIU/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "uIU/mL^uIU/mL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|The FDA issued a safety communication indicating that Biotin from Biotin supplements or multivitamins containing Biotin may cause interference with some assays.  The Ortho Clinical TSH assay will have a > 10% bias with Biotin concentrations of 8 ng/mL. Biotin levels in serum remain elevated for up to 24 hours when taken at recommended doses and 72 hours when larger doses are taken.|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.46
+                        },
+                        "high": {
+                            "value": 4.68
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

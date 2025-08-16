@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "204",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "204"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Love",
+                        "given": [
+                            "Kimberly"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1944-08-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAURIUM",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24121981423LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "B12",
+                            "display": "Vitamin B12"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/204"
+                },
+                "valueQuantity": {
+                    "value": 290.0,
+                    "unit": "pg/mL^pg/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL^pg/mL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 239.0
+                        },
+                        "high": {
+                            "value": 931.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

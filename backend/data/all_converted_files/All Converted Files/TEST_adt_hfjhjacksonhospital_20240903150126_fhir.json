@@ -1,0 +1,157 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "73",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "73"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Campbell",
+                        "given": [
+                            "Lily"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^NH^PH^^^517^9364201",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^NH^PH^^^517^9364201",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^NH^PH^^^517^9364201",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^NH^PH^^^517^9364201",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2007-04-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "G47.33^Obstructive sleep apnea (adult) (pediatric)^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/73"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F39^Unspecified mood (affective) disorder^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/73"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E66.9^Obesity, unspecified^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/73"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z68.54^Body mass index (BMI) pediatric, greater than or equal to 95th percentile for age^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/73"
+                }
+            }
+        }
+    ]
+}

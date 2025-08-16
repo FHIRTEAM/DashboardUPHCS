@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "393",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "393"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN427",
+                        "given": [
+                            "FN427"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1982-05-17",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "498559795",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S01.01XA^Laceration without foreign body of scalp, initial encounter^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/393"
+                }
+            }
+        }
+    ]
+}

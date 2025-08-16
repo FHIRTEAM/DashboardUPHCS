@@ -1,0 +1,163 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "5",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "5"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN13",
+                        "given": [
+                            "FN13"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1977-08-02",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRONWOOD",
+                        "state": "MI",
+                        "postalCode": "49938",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058I0008Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10132",
+                            "display": "QUANTIFERON TB GOLD, FINAL RESULT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 0.0,
+                    "unit": "IU/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "IU/mL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058I0008Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10132",
+                            "display": "QUANTIFERON TB GOLD, FINAL RESULT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 0.01,
+                    "unit": "IU/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "IU/mL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058I0008Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10132",
+                            "display": "QUANTIFERON TB GOLD, FINAL RESULT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 9.99,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058I0008Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10132",
+                            "display": "QUANTIFERON TB GOLD, FINAL RESULT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 0.01,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058I0008Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10132",
+                            "display": "QUANTIFERON TB GOLD, FINAL RESULT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

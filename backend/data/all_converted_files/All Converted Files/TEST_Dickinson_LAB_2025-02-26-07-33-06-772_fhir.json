@@ -1,0 +1,91 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "22",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "22"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN69",
+                        "given": [
+                            "FN69"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1944-09-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NIAGARA",
+                        "state": "WI",
+                        "postalCode": "54151-1042",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "3630448H22710LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HSCRP",
+                            "display": "C-Reactive Protein, High Sensitivity"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/22"
+                },
+                "valueQuantity": {
+                    "value": 25.7,
+                    "unit": "mg/L^mg/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/L^mg/L^L"
+                },
+                "note": [
+                    {
+                        "text": "L|AHA/CDC Consensus Guidelines for CVD risk in mg/L:|RE"
+                    },
+                    {
+                        "text": "L|   < 1.0 Low risk|RE"
+                    },
+                    {
+                        "text": "L|   1.0-3.0 Average risk|RE"
+                    },
+                    {
+                        "text": "L|   > 3.0 High risk|RE"
+                    },
+                    {
+                        "text": "L|   >10.0 Suggests inflammation (repeat when basal)|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 10.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

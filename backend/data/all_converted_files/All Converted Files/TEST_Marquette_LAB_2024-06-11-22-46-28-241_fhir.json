@@ -1,0 +1,109 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "43",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "43"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN105",
+                        "given": [
+                            "FN105"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1995-01-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24158326236LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HCVRT",
+                            "display": "HCV RNA Quantification"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/43"
+                },
+                "valueQuantity": {
+                    "unit": "IU/mL^IU/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "IU/mL^IU/mL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|Assay quantifiable range is 10 to 100,000,000 IU/mL (1.00 to 8.00 Log|RE"
+                    },
+                    {
+                        "text": "L|IU/mL). Targets detected below the lower limit of quantification are|RE"
+                    },
+                    {
+                        "text": "L|reported as less than 10 IU/mL (1.00 log IU/mL). Targets detected above|RE"
+                    },
+                    {
+                        "text": "L|the upper limit of quantification are reported as greater than|RE"
+                    },
+                    {
+                        "text": "L|100,000,000 IU/mL (8.00 Log IU/mL). Testing was performed using the|RE"
+                    },
+                    {
+                        "text": "L|Hologic Aptima HCV Assay by TMA on the Panther system. Michigan PA 306|RE"
+                    },
+                    {
+                        "text": "L|and 308 requires the doctor to report this organism to the Local Health|RE"
+                    },
+                    {
+                        "text": "L|Department.|RE"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24158326236LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HCVRT",
+                            "display": "HCV RNA Quantification"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/43"
+                },
+                "valueQuantity": {
+                    "unit": "Log IU/mL^Log IU/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "Log IU/mL^Log IU/mL^L"
+                }
+            }
+        }
+    ]
+}

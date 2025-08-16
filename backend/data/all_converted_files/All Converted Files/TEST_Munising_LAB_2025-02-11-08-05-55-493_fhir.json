@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "153",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "153"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN212",
+                        "given": [
+                            "FN212"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1942-02-04",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498629257",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-037-0043",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urine Cytology UPHS",
+                            "display": "Urine Cytology UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/153"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

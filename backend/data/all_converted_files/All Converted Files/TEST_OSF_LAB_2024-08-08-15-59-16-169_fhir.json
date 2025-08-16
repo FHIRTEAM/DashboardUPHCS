@@ -1,0 +1,80 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "174",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "174"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN233",
+                        "given": [
+                            "FN233"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1988-04-15",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SF-220CA02610",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1163",
+                            "display": "HEPATITIS C ANTIBODY"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/174"
+                },
+                "valueQuantity": {
+                    "unit": "S/CO",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "S/CO"
+                },
+                "note": [
+                    {
+                        "text": "L|Signal/Cutoff ratio  < 0.79 is Nondetected"
+                    },
+                    {
+                        "text": "L|Signal/Cutoff ratio 0.80-0.99 is Grayzone"
+                    },
+                    {
+                        "text": "L|Signal/Cutoff ratio > 0.99 is Detected"
+                    },
+                    {
+                        "text": "L"
+                    },
+                    {
+                        "text": "L|Supplemental assays are recommended if signal/cutoff ratio is >/=1.00.  Signal/cutoff ratio result >/= 5.00 is 97% predictive of positivity for recombinant immunoblot assay (RIBA) and will be reported to the Illinois Department of Public Health as required."
+                    }
+                ]
+            }
+        }
+    ]
+}

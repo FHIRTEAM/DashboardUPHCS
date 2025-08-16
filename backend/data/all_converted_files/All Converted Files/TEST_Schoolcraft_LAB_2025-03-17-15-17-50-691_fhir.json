@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "204",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "204"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN299",
+                        "given": [
+                            "FN299"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1955-01-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498548912",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-076-0154",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PSA Diagnostic",
+                            "display": "PSA Diag"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/204"
+                },
+                "valueQuantity": {
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|Assay is one step enzyme immunoassay based on the \"sandwich\" principle performed on the Simens Dimensions EXL."
+                    }
+                ]
+            }
+        }
+    ]
+}

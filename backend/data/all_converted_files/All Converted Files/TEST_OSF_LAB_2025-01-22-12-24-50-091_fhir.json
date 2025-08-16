@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "176",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "176"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN235",
+                        "given": [
+                            "FN235"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1946-04-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-022MC00017",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB8153",
+                            "display": "PRESURG MRSA"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/176"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-022MC00017",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB8153",
+                            "display": "PRESURG MRSA"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/176"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

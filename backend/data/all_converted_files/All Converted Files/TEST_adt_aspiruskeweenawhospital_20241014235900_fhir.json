@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "7",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "7"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Davis",
+                        "given": [
+                            "Emma"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1937-07-01",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CHASSELL",
+                        "state": "MI",
+                        "postalCode": "49916",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "L97.512^Non-pressure chronic ulcer of other part of right foot with fat layer exposed^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/7"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I73.9^Peripheral vascular disease, unspecified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/7"
+                }
+            }
+        }
+    ]
+}

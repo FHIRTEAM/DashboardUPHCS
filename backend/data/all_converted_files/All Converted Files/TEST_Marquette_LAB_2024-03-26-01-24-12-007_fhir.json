@@ -1,0 +1,845 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "206",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "206"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Fleming",
+                        "given": [
+                            "Parker"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1984-04-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 6.7,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.4
+                        },
+                        "high": {
+                            "value": 11.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 4.68,
+                    "unit": "X(10)6/UL^X(10)6/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)6/UL^X(10)6/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.3
+                        },
+                        "high": {
+                            "value": 5.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 14.4,
+                    "unit": "g/dL^g/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^g/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 12.7
+                        },
+                        "high": {
+                            "value": 17.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 41.3,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 38.0
+                        },
+                        "high": {
+                            "value": 50.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 88.2,
+                    "unit": "fL^fL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL^fL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 84.0
+                        },
+                        "high": {
+                            "value": 95.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 30.8,
+                    "unit": "pg^pg^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg^pg^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 28.0
+                        },
+                        "high": {
+                            "value": 32.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 34.9,
+                    "unit": "g/dL^g/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^g/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 32.0
+                        },
+                        "high": {
+                            "value": 35.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 11.7,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.5
+                        },
+                        "high": {
+                            "value": 15.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 223.0,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 175.0
+                        },
+                        "high": {
+                            "value": 400.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 9.8,
+                    "unit": "fL^fL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL^fL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.7
+                        },
+                        "high": {
+                            "value": 9.7
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 3.18,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.7
+                        },
+                        "high": {
+                            "value": 7.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 47.6,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 40.0
+                        },
+                        "high": {
+                            "value": 75.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 38.3,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 15.0
+                        },
+                        "high": {
+                            "value": 45.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 11.0,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 5.0
+                        },
+                        "high": {
+                            "value": 9.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 2.4,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.4
+                        },
+                        "high": {
+                            "value": 8.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.5,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 2.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.2,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.0,
+                    "unit": "/100 WBC^/100 WBC^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/100 WBC^/100 WBC^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 2.55,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.0
+                        },
+                        "high": {
+                            "value": 4.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.73,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.2
+                        },
+                        "high": {
+                            "value": 0.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.16,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.03,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.01,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086903299LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBCD",
+                            "display": "CBC with differential"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/206"
+                },
+                "valueQuantity": {
+                    "value": 0.0,
+                    "unit": "X(10)3/UL^X(10)3/UL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X(10)3/UL^X(10)3/UL^L"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "105",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "105"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Robinson",
+                        "given": [
+                            "Jacob"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1949-04-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "499461469",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S06.5XAA^Traumatic subdural hemorrhage with loss of consciousness status unknown, initial encounter^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/105"
+                }
+            }
+        }
+    ]
+}

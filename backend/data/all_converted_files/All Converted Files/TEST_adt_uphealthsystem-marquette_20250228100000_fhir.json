@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "372",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "372"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN413",
+                        "given": [
+                            "FN413"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1961-08-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "498419555",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "88443EC1-F394-4064-BED6-D455C43270C3^Wound reevaluation with or without suture removal^PNED"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/372"
+                }
+            }
+        }
+    ]
+}

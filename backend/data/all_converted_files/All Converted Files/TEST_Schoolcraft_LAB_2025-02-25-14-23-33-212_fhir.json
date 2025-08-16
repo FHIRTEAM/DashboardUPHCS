@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "223",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "223"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN318",
+                        "given": [
+                            "FN318"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1980-10-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NAUBINWAY",
+                        "state": "MI",
+                        "postalCode": "497620073",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-056-0129",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "TSH w/ Rflx to Free T4",
+                            "display": "TSH w/ Rflx to Free T4"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/223"
+                },
+                "valueQuantity": {
+                    "value": 2.12,
+                    "unit": "mcIntlUnit/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mcIntlUnit/mL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|HIGH LEVELS OF BIOTIN MAY INTERFERE WITH RESULT. MITIGATIONS INCLUDE CORRELATION TO CLINICAL HISTORY AND PRESENTATION AS WELL AS OTHER DIAGNOSTIC LABORATORY TESTING."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "91",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "91"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Ramirez",
+                        "given": [
+                            "Caleb"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2002-11-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "499461415",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "N39.0^Urinary tract infection, site not specified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/91"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E86.0^Dehydration^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/91"
+                }
+            }
+        }
+    ]
+}

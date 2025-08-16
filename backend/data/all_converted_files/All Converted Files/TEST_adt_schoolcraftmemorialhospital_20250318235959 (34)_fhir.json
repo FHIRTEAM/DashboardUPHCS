@@ -1,0 +1,118 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "220",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "220"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN315",
+                        "given": [
+                            "FN315"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1971-11-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "49854-1203",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F31.89^Other bipolar disorder^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/220"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F43.10^Post-traumatic stress disorder, unspecified^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/220"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F41.1^Generalized anxiety disorder^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/220"
+                }
+            }
+        }
+    ]
+}

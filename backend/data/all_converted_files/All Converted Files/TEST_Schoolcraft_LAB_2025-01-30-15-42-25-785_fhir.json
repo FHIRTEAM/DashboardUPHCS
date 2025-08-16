@@ -1,0 +1,126 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "216",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "216"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN311",
+                        "given": [
+                            "FN311"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1944-10-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541120",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-028-0138",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PT(INR)/ PTT",
+                            "display": "PT(INR)/ PTT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/216"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|NA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-028-0138",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PT(INR)/ PTT",
+                            "display": "PT(INR)/ PTT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/216"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|NA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-028-0138",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PT(INR)/ PTT",
+                            "display": "PT(INR)/ PTT"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/216"
+                },
+                "valueQuantity": {
+                    "unit": "seconds",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "seconds"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|NA"
+                    }
+                ]
+            }
+        }
+    ]
+}

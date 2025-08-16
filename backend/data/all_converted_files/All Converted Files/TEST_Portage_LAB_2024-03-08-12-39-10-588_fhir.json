@@ -1,0 +1,85 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "148",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "148"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Nelson",
+                        "given": [
+                            "Ethan"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1954-02-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0308C00078R.1L2602598.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2857-1",
+                            "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "value": 0.81,
+                    "unit": "NG/ML^NG/ML^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NG/ML^NG/ML^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|CHANGES IN A LAB VALUE OVER TIME, EVEN IF WITHIN THE NORMAL|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|RANGE, MAY INDICATE A CHANGE IN CLINICAL CONDITION OR A|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PATHOLOGICAL PROCESS.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 4.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

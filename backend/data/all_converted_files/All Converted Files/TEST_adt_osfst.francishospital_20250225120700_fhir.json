@@ -1,0 +1,111 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "330",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "330"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN237",
+                        "given": [
+                            "FN237"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2003-10-17",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GLADSTONE",
+                        "state": "MI",
+                        "postalCode": "49837",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "O20.0^Threatened abortion^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/330"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "O20.0^Threatened abortion^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/330"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "^Spotting, 5 wk preg"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/330"
+                }
+            }
+        }
+    ]
+}

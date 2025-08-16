@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "302",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "302"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN71",
+                        "given": [
+                            "FN71"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1966-05-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CRYSTAL FALLS",
+                        "state": "MI",
+                        "postalCode": "49920",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I35.0^NONRHEUMATIC AORTIC VALVE STENOSIS^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/302"
+                }
+            }
+        }
+    ]
+}

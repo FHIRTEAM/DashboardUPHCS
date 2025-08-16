@@ -1,0 +1,75 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "320",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "320"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN227",
+                        "given": [
+                            "FN227"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1949-09-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "49862-9147",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I50.9^Heart failure, unspecified^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/320"
+                }
+            }
+        }
+    ]
+}

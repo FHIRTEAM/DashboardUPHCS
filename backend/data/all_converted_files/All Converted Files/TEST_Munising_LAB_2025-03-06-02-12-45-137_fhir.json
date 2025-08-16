@@ -1,0 +1,102 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "159",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "159"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN218",
+                        "given": [
+                            "FN218"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-08-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621130",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-059-0019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Vitamin B1 (Thiamine) Blood UPHS",
+                            "display": "Vitamin B1 (Thiamine) Blood UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/159"
+                },
+                "valueQuantity": {
+                    "value": 129.6,
+                    "unit": "nmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "nmol/L"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|This test was developed and its performance characteristics"
+                    },
+                    {
+                        "text": "Result Comment|determined by Labcorp. It has not been cleared or"
+                    },
+                    {
+                        "text": "Result Comment|approved by the Food and Drug Administration."
+                    },
+                    {
+                        "text": "Result Comment|Performed at:  01 - Labcorp Burlington"
+                    },
+                    {
+                        "text": "Result Comment|1447 York Court, Burlington, NC  272153361"
+                    },
+                    {
+                        "text": "Result Comment|Lab Director: Sanjai Nagendra MD, Phone:  8007624344"
+                    },
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        }
+    ]
+}

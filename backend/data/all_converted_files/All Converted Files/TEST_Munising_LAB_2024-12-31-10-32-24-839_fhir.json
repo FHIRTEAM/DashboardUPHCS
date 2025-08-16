@@ -1,0 +1,155 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "147",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "147"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN206",
+                        "given": [
+                            "FN206"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1992-10-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621367",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-365-0030",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HIV-1/2 Ab+p24Ag w/Rfx UPHS",
+                            "display": "HIV-1/2 Ab+p24Ag w/Rfx UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/147"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-365-0030",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HIV-1/2 Ab+p24Ag w/Rfx UPHS",
+                            "display": "HIV-1/2 Ab+p24Ag w/Rfx UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/147"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-365-0030",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HIV-1/2 Ab+p24Ag w/Rfx UPHS",
+                            "display": "HIV-1/2 Ab+p24Ag w/Rfx UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/147"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-365-0030",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "HIV-1/2 Ab+p24Ag w/Rfx UPHS",
+                            "display": "HIV-1/2 Ab+p24Ag w/Rfx UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/147"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

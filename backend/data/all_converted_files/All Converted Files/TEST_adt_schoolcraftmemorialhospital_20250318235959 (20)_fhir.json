@@ -1,0 +1,46 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "234",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "234"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN328",
+                        "given": [
+                            "FN328"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1965-10-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GOULD CITY",
+                        "state": "MI",
+                        "postalCode": "49838-9086",
+                        "country": "US"
+                    }
+                ]
+            }
+        }
+    ]
+}

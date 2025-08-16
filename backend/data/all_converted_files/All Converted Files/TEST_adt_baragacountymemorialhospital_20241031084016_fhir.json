@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "17",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "17"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Martin",
+                        "given": [
+                            "Isabella"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "49946",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 64.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 145.0,
+                    "unit": "unknown"
+                }
+            }
+        }
+    ]
+}

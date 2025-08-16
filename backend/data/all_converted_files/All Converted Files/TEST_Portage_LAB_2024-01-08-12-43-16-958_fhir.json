@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "145",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "145"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Adams",
+                        "given": [
+                            "Ella"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1952-04-25",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HOUGHTON",
+                        "state": "MI",
+                        "postalCode": "49931-2751",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0108C00073R.1L2578846.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "16128-1",
+                            "display": "Hepatitis C virus Ab [Presence] in Serum"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/145"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

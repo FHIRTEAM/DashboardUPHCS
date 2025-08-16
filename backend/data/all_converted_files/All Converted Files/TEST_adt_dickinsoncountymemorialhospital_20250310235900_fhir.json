@@ -1,0 +1,135 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "295",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "295"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN381",
+                        "given": [
+                            "FN381"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1985-12-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "KINGSFORD",
+                        "state": "MI",
+                        "postalCode": "49802",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E78.5^HYPERLIPIDEMIA UNSPECIFIED^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/295"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E78.5^HYPERLIPIDEMIA UNSPECIFIED^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/295"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R73.03^PREDIABETES^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/295"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z13.29^ENC SCR OTH SUSPECT ENDOCRN DISORDR^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/295"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "37",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "37"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN100",
+                        "given": [
+                            "FN100"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1978-10-07",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24158325333LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CHLGC",
+                            "display": "Chlam trach Neisseria gonor Ampl DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/37"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24158325333LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CHLGC",
+                            "display": "Chlam trach Neisseria gonor Ampl DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/37"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|Chlamydia trachomatis DNA is Not Detected.|RE"
+                    },
+                    {
+                        "text": "L| |RE"
+                    },
+                    {
+                        "text": "L|This test is an automated, in vitro nucleic acid amplification test for|RE"
+                    },
+                    {
+                        "text": "L|the qualitative detection of Chlamydia trachomatis (CT) DNA in|RE"
+                    },
+                    {
+                        "text": "L|urogenital specimens which utilizes the Polymerase Chain Reaction (PCR)|RE"
+                    },
+                    {
+                        "text": "L|for the detection of Chlamydia trachomatis.. This test has not been|RE"
+                    },
+                    {
+                        "text": "L|evaluated in patients younger than 14 years of age.|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24158325333LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CHLGC",
+                            "display": "Chlam trach Neisseria gonor Ampl DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/37"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|Neisseria gonorrhoeae DNA is Not Detected.|RE"
+                    },
+                    {
+                        "text": "L| |RE"
+                    },
+                    {
+                        "text": "L|This test is an automated, in vitro nucleic acid amplification test for|RE"
+                    },
+                    {
+                        "text": "L|the qualitative detection of Neisseria gonorrhoeae (NG) DNA in|RE"
+                    },
+                    {
+                        "text": "L|urogenital specimens which utilizes the Polymerase Chain Reaction (PCR)|RE"
+                    },
+                    {
+                        "text": "L|for the detection of Neisseria gonorrhoeae.. This test has not been|RE"
+                    },
+                    {
+                        "text": "L|evaluated in patients younger than 14 years of age.|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        }
+    ]
+}

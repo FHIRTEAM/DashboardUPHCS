@@ -1,0 +1,75 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "152",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "152"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN211",
+                        "given": [
+                            "FN211"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1991-09-10",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "49862-1014",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z13.31^Encounter for screening for depression^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/152"
+                }
+            }
+        }
+    ]
+}

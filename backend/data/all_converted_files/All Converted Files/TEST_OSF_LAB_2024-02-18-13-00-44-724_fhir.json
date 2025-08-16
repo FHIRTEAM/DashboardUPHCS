@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "173",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "173"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN232",
+                        "given": [
+                            "FN232"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1980-05-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049MC00012",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB3111",
+                            "display": "GROUP A STREP MOLECULAR BY DNA AMPLIFICATION"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

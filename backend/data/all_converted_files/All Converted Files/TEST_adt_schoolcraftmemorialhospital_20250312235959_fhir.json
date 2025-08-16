@@ -1,0 +1,70 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "342",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "342"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN402",
+                        "given": [
+                            "FN402"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Pager personal",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1981-02-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "49854-1122",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "K04.7^Periapical abscess without sinus^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/342"
+                }
+            }
+        }
+    ]
+}

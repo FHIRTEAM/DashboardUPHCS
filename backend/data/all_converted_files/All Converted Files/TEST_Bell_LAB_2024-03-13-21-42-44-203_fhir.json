@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "78",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "78"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Coleman",
+                        "given": [
+                            "Stella"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1987-08-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0313PC00010R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "41653-7",
+                            "display": "Glucose [Mass/volume] in Capillary blood by Glucometer"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/78"
+                },
+                "valueQuantity": {
+                    "value": 262.0,
+                    "unit": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^mg/dl^mg/dl^L^1.1^V1",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^MilliGramsPerDeciLiter [Mass Concentration Units]^UCUM^mg/dl^mg/dl^L^1.1^V1"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 70.0
+                        },
+                        "high": {
+                            "value": 110.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

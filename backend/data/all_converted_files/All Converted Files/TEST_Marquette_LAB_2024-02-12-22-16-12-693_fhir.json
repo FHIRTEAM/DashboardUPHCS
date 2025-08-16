@@ -1,0 +1,106 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "34",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "34"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN97",
+                        "given": [
+                            "FN97"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1979-04-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24043646002LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "GLYHB",
+                            "display": "Hemoglobin A1c"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/34"
+                },
+                "valueQuantity": {
+                    "value": 5.6,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "note": [
+                    {
+                        "text": "L|Expected reference range for healthy adult non-diabetics: 4.0 - 6.0%|RE"
+                    },
+                    {
+                        "text": "L|Diabetes diagnostic cut-off: > or = 6.5%|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.0
+                        },
+                        "high": {
+                            "value": 6.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24043646002LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "GLYHB",
+                            "display": "Hemoglobin A1c"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/34"
+                },
+                "valueQuantity": {
+                    "value": 114.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "29",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "29"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN92",
+                        "given": [
+                            "FN92"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2002-02-04",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "SAULT STE MARIE",
+                        "state": "MI",
+                        "postalCode": "49783",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305126",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "TSH",
+                            "display": "TSH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 2.56,
+                    "unit": "meq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "meq/L"
+                },
+                "note": [
+                    {
+                        "text": "|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.45
+                        },
+                        "high": {
+                            "value": 5.33
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

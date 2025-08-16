@@ -1,0 +1,124 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "5",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "5"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN13",
+                        "given": [
+                            "FN13"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1977-08-02",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRONWOOD",
+                        "state": "MI",
+                        "postalCode": "49938",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058C0314Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10093",
+                            "display": "MICROALBUMIN, RANDOM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 0.4,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058C0314Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10093",
+                            "display": "MICROALBUMIN, RANDOM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 152.9,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25WH-058C0314Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB10093",
+                            "display": "MICROALBUMIN, RANDOM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5"
+                },
+                "valueQuantity": {
+                    "value": 2.6,
+                    "unit": "ug/mg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ug/mg"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 25.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

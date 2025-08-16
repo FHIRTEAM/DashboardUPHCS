@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "22",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "22"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN69",
+                        "given": [
+                            "FN69"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1944-09-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NIAGARA",
+                        "state": "WI",
+                        "postalCode": "54151-1042",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "3630447H22710LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ESR",
+                            "display": "Sedimentation Rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/22"
+                },
+                "valueQuantity": {
+                    "value": 56.0,
+                    "unit": "mm/hr^mm/hr^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm/hr^mm/hr^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 30.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

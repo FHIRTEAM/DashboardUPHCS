@@ -1,0 +1,262 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "287",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "287"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN379",
+                        "given": [
+                            "FN379"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^^PH^^^586^2466227",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1978-04-22",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "EASTPOINTE",
+                        "state": "MI",
+                        "postalCode": "48021",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "G43.709^Chronic migraine without aura, not intractable, without status migrainosus^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z86.73^Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E78.5^Hyperlipidemia, unspecified^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Q21.10^Atrial septal defect, unspecified (HHS-HCC)^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F41.9^Anxiety disorder, unspecified^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z12.31^Encounter for screening mammogram for malignant neoplasm of breast^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z12.11^Encounter for screening for malignant neoplasm of colon^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F90.9^Attention-deficit hyperactivity disorder, unspecified type^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E56.9^Vitamin deficiency, unspecified^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/287"
+                }
+            }
+        }
+    ]
+}

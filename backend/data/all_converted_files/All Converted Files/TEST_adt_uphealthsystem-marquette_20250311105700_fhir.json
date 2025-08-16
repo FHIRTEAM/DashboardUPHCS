@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "108",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "108"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN167",
+                        "given": [
+                            "FN167"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1977-09-15",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NEGAUNEE",
+                        "state": "MI",
+                        "postalCode": "49866",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R07.9^Chest pain, unspecified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/108"
+                }
+            }
+        }
+    ]
+}

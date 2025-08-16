@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "104",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "104"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN163",
+                        "given": [
+                            "FN163"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2010-09-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "49855",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R10.9^Unspecified abdominal pain^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/104"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "N94.6^Dysmenorrhea, unspecified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/104"
+                }
+            }
+        }
+    ]
+}

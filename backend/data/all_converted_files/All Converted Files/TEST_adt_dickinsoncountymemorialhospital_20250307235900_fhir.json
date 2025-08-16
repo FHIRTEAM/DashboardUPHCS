@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "289",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "289"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN69",
+                        "given": [
+                            "FN69"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1944-09-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NIAGARA",
+                        "state": "WI",
+                        "postalCode": "54151-1042",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I49.8^OTHER SPECIFIED CARDIAC ARRHYTHMIAS^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/289"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "178",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "178"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Bowers",
+                        "given": [
+                            "Bradley"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2004-09-19",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "FOWLERVILLE",
+                        "state": "MI",
+                        "postalCode": "48836",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0309S00001U.1L2602953.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "5213-4",
+                            "display": "Heterophile Ab [Presence] in Serum by Latex agglutination"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/178"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

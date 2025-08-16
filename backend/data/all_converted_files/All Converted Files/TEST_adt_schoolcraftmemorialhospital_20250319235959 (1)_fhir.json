@@ -1,0 +1,94 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "344",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "344"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN403",
+                        "given": [
+                            "FN403"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1973-11-05",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GOULD CITY",
+                        "state": "MI",
+                        "postalCode": "49838-8905",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R06.02^Shortness of breath^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/344"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R06.02^Shortness of breath^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/344"
+                }
+            }
+        }
+    ]
+}

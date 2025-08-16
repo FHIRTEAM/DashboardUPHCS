@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "220",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "220"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN315",
+                        "given": [
+                            "FN315"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1971-11-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541203",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-043-0098",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Iron Level",
+                            "display": "Iron"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/220"
+                },
+                "valueQuantity": {
+                    "value": 81.0,
+                    "unit": "mcg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mcg/dL"
+                }
+            }
+        }
+    ]
+}

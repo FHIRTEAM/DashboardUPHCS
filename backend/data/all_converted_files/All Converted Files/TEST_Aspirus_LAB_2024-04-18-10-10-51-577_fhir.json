@@ -1,0 +1,211 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "185",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "185"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Peterson",
+                        "given": [
+                            "Sarah"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-07-30",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB18",
+                            "display": "LIPID PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 160.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB18",
+                            "display": "LIPID PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 52.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB18",
+                            "display": "LIPID PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 54.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB18",
+                            "display": "LIPID PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 2.96,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                },
+                "note": [
+                    {
+                        "text": "|NIH,NCEP Guidelines.Overall LDL target depends on CHD risk factors."
+                    },
+                    {
+                        "text": "|         Optimal:"
+                    },
+                    {
+                        "text": "|         Cholesterol       <200 mg/dl"
+                    },
+                    {
+                        "text": "|         Triglycerides    <150 mg/dl"
+                    },
+                    {
+                        "text": "|         HDL              >60 mg/dl"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB18",
+                            "display": "LIPID PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 96.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB18",
+                            "display": "LIPID PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 106.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "note": [
+                    {
+                        "text": "|Adult lipid reference ranges are based on patients in a fasting state. National reference ranges are not established for non-fasting patients."
+                    }
+                ]
+            }
+        }
+    ]
+}

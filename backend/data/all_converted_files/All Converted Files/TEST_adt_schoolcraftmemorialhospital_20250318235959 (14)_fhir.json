@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "229",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "229"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN323",
+                        "given": [
+                            "FN323"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1974-11-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GULLIVER",
+                        "state": "MI",
+                        "postalCode": "49840-9058",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "M32.9^Systemic lupus erythematosus, unspecified^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/229"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "156",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "156"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN215",
+                        "given": [
+                            "FN215"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2004-09-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621440",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-060-0041",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipase Level",
+                            "display": "Lipase"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/156"
+                },
+                "valueQuantity": {
+                    "value": 22.0,
+                    "unit": "unit/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit/L"
+                }
+            }
+        }
+    ]
+}

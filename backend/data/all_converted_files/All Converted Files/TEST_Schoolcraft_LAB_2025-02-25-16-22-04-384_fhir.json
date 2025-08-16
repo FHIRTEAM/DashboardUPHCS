@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "200",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "200"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN296",
+                        "given": [
+                            "FN296"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2000-08-15",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498549206",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-056-0151",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "SARS-CoV-2 (COVID-19) RNA (ID Now)",
+                            "display": "COVID19 ID Now"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/200"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|This COVID test is a PCR assay utilizing isothermal nucleic acid amplification technology."
+                    }
+                ]
+            }
+        }
+    ]
+}

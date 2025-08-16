@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "1",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "1"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Hill",
+                        "given": [
+                            "Avery"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1969-10-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24XL-149ML015Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123167",
+                            "display": "COMPREHENSIVE  DRUG PANEL, URINE, QUANTITATIVE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24XL-149ML015Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123167",
+                            "display": "COMPREHENSIVE  DRUG PANEL, URINE, QUANTITATIVE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

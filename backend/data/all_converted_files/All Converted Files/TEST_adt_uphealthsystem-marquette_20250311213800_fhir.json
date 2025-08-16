@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "389",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "389"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN102",
+                        "given": [
+                            "FN102"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1967-02-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "498412731",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "H81.399^Other peripheral vertigo, unspecified ear^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/389"
+                }
+            }
+        }
+    ]
+}

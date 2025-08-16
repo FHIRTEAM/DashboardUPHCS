@@ -1,0 +1,98 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "16",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "16"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN53",
+                        "given": [
+                            "FN53"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2008-09-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NEGAUNEE",
+                        "state": "MI",
+                        "postalCode": "49866",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25MR0001006S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "630-4",
+                            "display": "Bacteria identified in Urine by Culture"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/16"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|***FINAL REPORTS***|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Verified Date/Time: 3/19/2025 15:36 EDT|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Contaminant Flora|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|PERFORMED AT UP HEALTH SYSTEM - MARQUETTE|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Ave.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Marquette, MI 49855|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Jeffrey Conklin, M.D., Medical Director|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|CLIA #23D0038098|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "338",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "338"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN235",
+                        "given": [
+                            "FN235"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1946-04-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R23.2^Flushing^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/338"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "T46.7X5A^Adverse effect of peripheral vasodilators, initial encounter^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/338"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R23.2^Flushing^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/338"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "T46.7X5A^Adverse effect of peripheral vasodilators, initial encounter^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/338"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "^allergic reaction to new meds"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/338"
+                }
+            }
+        }
+    ]
+}

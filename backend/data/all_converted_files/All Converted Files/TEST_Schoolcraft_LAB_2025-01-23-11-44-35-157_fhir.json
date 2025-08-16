@@ -1,0 +1,189 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "215",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "215"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN310",
+                        "given": [
+                            "FN310"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1968-07-16",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "COOKS",
+                        "state": "MI",
+                        "postalCode": "498179762",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 295.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 135.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 45.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 223.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 6.6,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 27.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

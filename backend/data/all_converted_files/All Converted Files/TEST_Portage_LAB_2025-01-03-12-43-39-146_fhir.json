@@ -1,0 +1,394 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "191",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "191"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN262",
+                        "given": [
+                            "FN262"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1964-09-05",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.1L2724802.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "30341-2",
+                            "display": "Erythrocyte sedimentation rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 10.0,
+                    "unit": "MM/HR^MM/HR^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MM/HR^MM/HR^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|Dx? R931|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 20.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 45.7,
+                    "unit": "%^%^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 38.8
+                        },
+                        "high": {
+                            "value": 50.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 15.2,
+                    "unit": "GM/DL^GM/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "GM/DL^GM/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 13.5
+                        },
+                        "high": {
+                            "value": 17.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 30.5,
+                    "unit": "PG^PG^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "PG^PG^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 27.0
+                        },
+                        "high": {
+                            "value": 31.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 33.3,
+                    "unit": "G/DL^G/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "G/DL^G/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 31.8
+                        },
+                        "high": {
+                            "value": 35.4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 91.6,
+                    "unit": "FL^FL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "FL^FL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 80.0
+                        },
+                        "high": {
+                            "value": 100.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 240.0,
+                    "unit": "X10 3/UL^X10 3/UL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X10 3/UL^X10 3/UL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 142.0
+                        },
+                        "high": {
+                            "value": 424.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 4.99,
+                    "unit": "X10 6/UL^X10 6/UL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X10 6/UL^X10 6/UL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.69
+                        },
+                        "high": {
+                            "value": 6.13
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 13.2,
+                    "unit": "%^%^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.6
+                        },
+                        "high": {
+                            "value": 14.8
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0103H00059R.2L2724802.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "47288-6",
+                            "display": "CBC WO Differential panel - Cord blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "value": 6.8,
+                    "unit": "X10 3/UL^X10 3/UL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "X10 3/UL^X10 3/UL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.6
+                        },
+                        "high": {
+                            "value": 10.2
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

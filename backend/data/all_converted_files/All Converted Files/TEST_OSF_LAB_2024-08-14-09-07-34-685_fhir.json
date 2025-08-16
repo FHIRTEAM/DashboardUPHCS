@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "174",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "174"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN233",
+                        "given": [
+                            "FN233"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1988-04-15",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24ME-220RF00002",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2333",
+                            "display": "MISCELLANEOUS TEST (MAYO)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/174"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "148",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "148"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN207",
+                        "given": [
+                            "FN207"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1997-05-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "EBEN JUNCTION",
+                        "state": "MI",
+                        "postalCode": "498250033",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0017",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Coronavirus SARS Ag (Sofia)",
+                            "display": "Coronavirus SARS Ag (Sofia)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|Negative results should be treated as presumptive and confirmed with a molecular assay, if necessary for patient management. Negative results do not rule out COVID-19 and should not be used as the sole basis for treatment or patient management decisions, including infection control decisions. Negative results should be considered in the context of a patient\ufffds recent exposures, history and the presence of clinical signs and symptoms consistent with COVID-19"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0017",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Coronavirus SARS Ag (Sofia)",
+                            "display": "Coronavirus SARS Ag (Sofia)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0017",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Coronavirus SARS Ag (Sofia)",
+                            "display": "Coronavirus SARS Ag (Sofia)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "value": 7090134.0,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0017",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Coronavirus SARS Ag (Sofia)",
+                            "display": "Coronavirus SARS Ag (Sofia)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "value": 2282025.0,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

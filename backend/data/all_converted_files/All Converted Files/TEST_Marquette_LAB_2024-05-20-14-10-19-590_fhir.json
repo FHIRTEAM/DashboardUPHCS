@@ -1,0 +1,70 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "40",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "40"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN61",
+                        "given": [
+                            "FN61"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1938-03-04",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24141226404LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PGLU",
+                            "display": "Glucose-POC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/40"
+                },
+                "valueQuantity": {
+                    "value": 142.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 74.0
+                        },
+                        "high": {
+                            "value": 106.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

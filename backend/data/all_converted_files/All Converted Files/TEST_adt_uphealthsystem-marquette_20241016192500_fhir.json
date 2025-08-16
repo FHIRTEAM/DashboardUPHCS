@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "96",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "96"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Ward",
+                        "given": [
+                            "Nora"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1974-09-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "499461615",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R00.0^Tachycardia, unspecified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/96"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "D64.9^Anemia, unspecified^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/96"
+                }
+            }
+        }
+    ]
+}

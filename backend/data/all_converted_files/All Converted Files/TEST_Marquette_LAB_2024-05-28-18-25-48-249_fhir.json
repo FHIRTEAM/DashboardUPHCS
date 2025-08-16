@@ -1,0 +1,103 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "41",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "41"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN103",
+                        "given": [
+                            "FN103"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1953-02-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24149268353LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CREA",
+                            "display": "Creatinine"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/41"
+                },
+                "valueQuantity": {
+                    "value": 59.0,
+                    "unit": "ml/min^ml/min^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ml/min^ml/min^L"
+                },
+                "note": [
+                    {
+                        "text": "L|Stage 3 chronic Kidney Disease; GFR 30-59 ml/min.|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24149268353LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CREA",
+                            "display": "Creatinine"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/41"
+                },
+                "valueQuantity": {
+                    "value": 1.3,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.66
+                        },
+                        "high": {
+                            "value": 1.25
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

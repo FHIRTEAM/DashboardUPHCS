@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "279",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "279"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN262",
+                        "given": [
+                            "FN262"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1964-09-05",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z95.2^Presence of prosthetic heart valve^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/279"
+                }
+            }
+        }
+    ]
+}

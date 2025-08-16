@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "209",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "209"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN304",
+                        "given": [
+                            "FN304"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-11-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498548848",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-014-0206",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Pathology Request",
+                            "display": "Pathology Request"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/209"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "11",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "11"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN34",
+                        "given": [
+                            "FN34"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1995-10-09",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0205UC00001S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "12286-1",
+                            "display": "Drugs identified in Urine by Screen method"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/11"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|POSITIVE FOR THC AND BUPRENORPHINE|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|This screen includes Amphetamine, Barbiturates,|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Benzodiazepines, Cocaine, Methamphetamine, Methadone,|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Opiates, Oxycodone, Phencyclidine, THC, Tricyclics (TCA),|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|and Buprenorphine. This test is intended to be used by a|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|physician and interpreted in the context of the patient's|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|symptoms and history. Note: This is a presumptive test. To|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|confirm presumptive results, a more specific method must be|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|used. If confirmatory testing is needed, it must be ordered|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|separately.|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        }
+    ]
+}

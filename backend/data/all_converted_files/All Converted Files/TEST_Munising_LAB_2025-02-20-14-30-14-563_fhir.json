@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "149",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "149"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN208",
+                        "given": [
+                            "FN208"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1936-02-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "AU TRAIN",
+                        "state": "MI",
+                        "postalCode": "498069623",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-051-0032",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PSA Diagnostic",
+                            "display": "PSA Diag"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/149"
+                },
+                "valueQuantity": {
+                    "value": 1.14,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|This total PSA  method used is a one step enzyme immunoassay based on the sandwich principal"
+                    }
+                ]
+            }
+        }
+    ]
+}

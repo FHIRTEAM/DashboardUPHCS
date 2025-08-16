@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "233",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "233"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN327",
+                        "given": [
+                            "FN327"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1975-04-25",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GULLIVER",
+                        "state": "MI",
+                        "postalCode": "498409032",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-077-0016",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Pregnancy Test Serum Qual",
+                            "display": "Serum Preg Ql"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/233"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-077-0016",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Pregnancy Test Serum Qual",
+                            "display": "Serum Preg Ql"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/233"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

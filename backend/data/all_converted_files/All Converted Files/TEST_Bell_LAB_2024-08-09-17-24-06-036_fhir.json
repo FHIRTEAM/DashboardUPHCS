@@ -1,0 +1,104 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "9",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "9"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN28",
+                        "given": [
+                            "FN28"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1992-03-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0808RL00023R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "SHIGA TOXIN",
+                            "display": "SHIGA TOXIN ASSAY"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/9"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0808RL00023R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "SHIGA TOXIN",
+                            "display": "SHIGA TOXIN ASSAY"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/9"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|Test Performed at:|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|UP Health System Marquette|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Avenue|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Marquette, MI 49855-4550|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Medical Director: Jeffrey Conklin, MD  CLIA: 23D0038098|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        }
+    ]
+}

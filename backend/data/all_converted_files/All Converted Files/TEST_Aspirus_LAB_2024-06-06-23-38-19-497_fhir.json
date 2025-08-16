@@ -1,0 +1,120 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "187",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "187"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Green",
+                        "given": [
+                            "Sebastian"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1982-08-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908-9133",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-158G0117Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB320",
+                            "display": "PROTIME-INR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/187"
+                },
+                "valueQuantity": {
+                    "value": 13.2,
+                    "unit": "sec",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "sec"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 12.0
+                        },
+                        "high": {
+                            "value": 14.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-158G0117Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB320",
+                            "display": "PROTIME-INR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/187"
+                },
+                "valueQuantity": {
+                    "value": 1.0,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                },
+                "note": [
+                    {
+                        "text": "|Standard intensity therapeutic range: 2.0-3.0"
+                    },
+                    {
+                        "text": "|High intensity therapeutic range: 2.5-3.5"
+                    },
+                    {
+                        "text": "|Highest intensity therapeutic range: 3.0-4.0"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.9
+                        },
+                        "high": {
+                            "value": 1.1
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

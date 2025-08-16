@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "215",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "215"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN310",
+                        "given": [
+                            "FN310"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1968-07-16",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "COOKS",
+                        "state": "MI",
+                        "postalCode": "498179762",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-023-0084",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Free T4",
+                            "display": "Free T4"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/215"
+                },
+                "valueQuantity": {
+                    "value": 0.89,
+                    "unit": "ng/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/dL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|HIGH LEVELS OF BIOTIN MAY INTERFERE WITH RESULT. MITIGATIONS INCLUDE CORRELATION TO CLINICAL HISTORY AND PRESENTATION AS WELL AS OTHER DIAGNOSTIC LABORATORY TESTING."
+                    }
+                ]
+            }
+        }
+    ]
+}

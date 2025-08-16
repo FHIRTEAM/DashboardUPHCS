@@ -1,0 +1,70 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "322",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "322"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN395",
+                        "given": [
+                            "FN395"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1990-03-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "TRAVERSE CITY",
+                        "state": "MI",
+                        "postalCode": "49685-8762",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R10.10^Upper abdominal pain, unspecified^I10C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/322"
+                }
+            }
+        }
+    ]
+}

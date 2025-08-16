@@ -1,0 +1,99 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "184",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "184"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Anderson",
+                        "given": [
+                            "James"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1986-03-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MASS CITY",
+                        "state": "MI",
+                        "postalCode": "49948",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-079C1114Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB90",
+                            "display": "HEMOGLOBIN A1C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/184"
+                },
+                "valueQuantity": {
+                    "value": 6.8,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.3
+                        },
+                        "high": {
+                            "value": 5.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-079C1114Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB90",
+                            "display": "HEMOGLOBIN A1C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/184"
+                },
+                "valueQuantity": {
+                    "value": 148.0,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                }
+            }
+        }
+    ]
+}

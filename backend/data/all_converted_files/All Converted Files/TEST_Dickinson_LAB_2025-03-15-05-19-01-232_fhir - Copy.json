@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "27",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "27"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN87",
+                        "given": [
+                            "FN87"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1990-02-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NORWAY",
+                        "state": "MI",
+                        "postalCode": "49870",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1751254LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAC",
+                            "display": "Lactate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/27"
+                },
+                "valueQuantity": {
+                    "value": 0.6,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.7
+                        },
+                        "high": {
+                            "value": 2.1
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

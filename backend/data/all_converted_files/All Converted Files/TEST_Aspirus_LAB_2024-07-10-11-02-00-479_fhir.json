@@ -1,0 +1,111 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "189",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "189"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Boyd",
+                        "given": [
+                            "Jocelyn"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1949-10-27",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAKE LINDEN",
+                        "state": "MI",
+                        "postalCode": "49945",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-184M0009Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB897",
+                            "display": "AEROBIC CULTURE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/189"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-184M0009Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB897",
+                            "display": "AEROBIC CULTURE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/189"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-184M0009Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB897",
+                            "display": "AEROBIC CULTURE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/189"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

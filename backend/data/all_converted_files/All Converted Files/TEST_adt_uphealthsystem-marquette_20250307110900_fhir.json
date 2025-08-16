@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "132",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "132"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN191",
+                        "given": [
+                            "FN191"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1951-09-07",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "498493229",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R29.6^Unspecified fracture of right patella, initial encounter for closed fracture^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/132"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S82.001A^Repeated falls^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/132"
+                }
+            }
+        }
+    ]
+}

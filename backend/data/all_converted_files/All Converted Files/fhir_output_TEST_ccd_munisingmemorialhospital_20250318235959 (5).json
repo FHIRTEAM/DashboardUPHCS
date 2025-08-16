@@ -1,0 +1,885 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "135",
+        "name": [
+          {
+            "use": "official",
+            "family": "LN209",
+            "given": [
+              "FN209"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5be62b53-ed70-416c-a9c4-81d804461a23",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "ASSERTION",
+              "display": "Assertion"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c04b41eb-6767-411a-b461-2254032674fa",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33999-4",
+              "display": "Diagnosis Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "546a4d09-45d7-4527-8e7e-18bc85f0a8bf",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "ASSERTION",
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6f19616d-266b-493f-a0fa-6078af2652f2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "SEV",
+              "display": "Severity Observation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "70b0503f-f435-475c-874b-14c01a2acccb",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "82606-5",
+              "display": "Criticality"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fca5e745-df11-400b-ac9d-a3045359470e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55607006",
+              "display": "Problem"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b1281bfc-bb38-4976-aec2-7aaa7f7af15f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "788-0",
+              "display": "ERYTHROCYTE DISTRIBUTION WIDTH:RATIO:PT:RBC:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 11.8,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dd231830-8286-4c58-95c5-e4f74d998a4a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "HEMOGLOBIN:MCNC:PT:BLD:QN:"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 13.5,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e24910ce-7180-4710-8719-9fb8315a206c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "ERYTHROCYTE MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION:MCNC:PT:RBC:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 34.3,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e4a4a65d-c2bf-4eff-bab2-4a9d5cf593d9",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 4.5,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7e304182-19c2-4353-a450-f27efb60ffe1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32623-1",
+              "display": "PLATELET MEAN VOLUME:ENTVOL:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 9.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "80f07d3e-ba1d-498c-9d42-20ce97d2c37c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MEAN CORPUSCULAR VOLUME:ENTVOL:PT:RBC:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 87.4,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "656f7ffb-bec1-4d60-99e5-e9258002fd50",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "PLATELETS:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 256.0,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "00064209-c070-45c9-9309-688cdb428d87",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "HEMATOCRIT:VFR:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 39.4,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "482e02be-0240-43e4-8a0c-54f37b23f670",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "LEUKOCYTES:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 8.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c5d4da86-05aa-4c9e-abba-8d084842dfe2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "ERYTHROCYTE MEAN CORPUSCULAR HEMOGLOBIN:ENTMASS:PT:RBC:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 29.9,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8e581cf6-bf4e-410b-8e3d-16e495cf3d04",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "736-9",
+              "display": "LYMPHOCYTES/100 LEUKOCYTES:NFR:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 33.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d9346c45-81b8-4fc5-9cc3-ec94de16336a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "731-0",
+              "display": "LYMPHOCYTES:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 2.9,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b1925618-0977-4ef6-9dd8-4b4cd7ad35f8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "770-8",
+              "display": "NEUTROPHILS/100 LEUKOCYTES:NFR:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 57.6,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4a545f3d-0e7e-42b7-85e8-caf17d8bdc9b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.03,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5ce96350-ec57-40d0-838a-f7f54e8583d2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "751-8",
+              "display": "NEUTROPHILS:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 4.95,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "adb02df2-5794-4b23-a632-14c3410ff279",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "713-8",
+              "display": "EOSINOPHILS/100 LEUKOCYTES:NFR:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bd24342f-d862-45ec-8d54-036d422f326e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5905-5",
+              "display": "MONOCYTES/100 LEUKOCYTES:NFR:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 7.5,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1f7d738e-67f8-4135-a3de-998ba32511fe",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "742-7",
+              "display": "MONOCYTES:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.65,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "381460bf-9562-45f9-99cb-229fb501e4a6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "704-7",
+              "display": "BASOPHILS:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.01,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "90afa2b8-7cf2-40f0-a98c-20c69273b24d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "64e74d2d-1c5a-4167-948a-0574f0daeac9",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "711-2",
+              "display": "EOSINOPHILS:NCNC:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.08,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6dbe206c-01f5-4eee-9599-476aa752d3a6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "706-2",
+              "display": "BASOPHILS/100 LEUKOCYTES:NFR:PT:BLD:QN:AUTOMATED COUNT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "unit",
+          "system": "http://unitsofmeasure.org",
+          "code": "unit"
+        },
+        "effectiveDateTime": "20250318142900-0400"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4d9fb11c-7030-47ce-968c-f3d86512ef51",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "16c33619-f735-45ad-9093-d74d73284a61",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": null,
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cac8bb08-4102-49e7-8646-5a7ec5e17c8d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "452c1965-606a-4145-a594-5d9c9fb42b34",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76690-7",
+              "display": "Sexual Orientation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b33f5c3a-5759-4691-ad21-0015be71e083",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76691-5",
+              "display": "Gender identity"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ff9d9f8e-fcc0-4e78-ae61-6563f08d4236",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76689-9",
+              "display": "Sex Assigned At Birth"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f4101834-22e3-4340-ad6d-658e7d87f653",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "46098-0",
+              "display": "Sex"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        },
+        "effectiveDateTime": "20190130092048-0600"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8a148ab2-d5e9-4833-a151-b2f339b31211",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": null,
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "43b45111-1b75-4893-a53f-d559e3c70d70",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": null,
+                "display": null
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/135"
+        }
+      }
+    }
+  ]
+}

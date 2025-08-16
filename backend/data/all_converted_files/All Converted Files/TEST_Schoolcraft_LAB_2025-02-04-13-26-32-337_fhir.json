@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "213",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "213"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN308",
+                        "given": [
+                            "FN308"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1948-07-20",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498548848",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-016-0223",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Oxycodone Confirmation",
+                            "display": "Oxycodone Confirmation"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/213"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

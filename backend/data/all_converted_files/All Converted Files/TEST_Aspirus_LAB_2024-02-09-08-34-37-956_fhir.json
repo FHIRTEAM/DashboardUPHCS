@@ -1,0 +1,112 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "181",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "181"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Clark",
+                        "given": [
+                            "Liam"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1963-07-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAURIUM",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-038Z0007Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB511",
+                            "display": "ACTH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 34.3,
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION: Adrenocorticotropic Hormone"
+                    },
+                    {
+                        "text": "|Reference interval based on samples collected between 7 a.m. and"
+                    },
+                    {
+                        "text": "|10 a.m.  No reference intervals established for p.m. collections."
+                    },
+                    {
+                        "text": "|Pediatric reference values are the same as adults (Acta Paediatr"
+                    },
+                    {
+                        "text": "|Scand 1981;70:341-345).  This assay measures intact ACTH 1-39;"
+                    },
+                    {
+                        "text": "|some types of synthetic ACTH and ACTH fragments are not detected"
+                    },
+                    {
+                        "text": "|by this assay."
+                    },
+                    {
+                        "text": "|Performed By: ARUP Laboratories"
+                    },
+                    {
+                        "text": "|500 Chipeta Way"
+                    },
+                    {
+                        "text": "|Salt Lake City, UT 84108"
+                    },
+                    {
+                        "text": "|Laboratory Director: Jonathan R. Genzen, MD, PhD"
+                    },
+                    {
+                        "text": "|CLIA Number: 46D0523979"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.2
+                        },
+                        "high": {
+                            "value": 63.3
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

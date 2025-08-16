@@ -1,0 +1,142 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "160",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "160"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN219",
+                        "given": [
+                            "FN219"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1984-09-30",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "TRENARY",
+                        "state": "MI",
+                        "postalCode": "49891",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R10.9^Unspecified abdominal pain^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/160"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "4858AFEB-7C01-4A67-B4F5-9B3A35EA1FC8^Abdominal pain^PNED"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/160"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "23AF68BA-AC4A-4DE9-8177-E6D564D15E70^Urinary frequency^PNED"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/160"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "EB3504E6-BBDC-406B-89B6-C97C33BDD763^Back pain^PNED"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/160"
+                }
+            }
+        }
+    ]
+}

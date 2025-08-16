@@ -1,0 +1,120 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "171",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "171"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN230",
+                        "given": [
+                            "FN230"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1990-08-30",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498628608",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Estradiol Serum UPHS",
+                            "display": "Estradiol Serum UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/171"
+                },
+                "valueQuantity": {
+                    "value": 48.0,
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|REFERENCE RANGE:"
+                    },
+                    {
+                        "text": "Result Comment|Early Follicular phase  30 - 100 pg/mL"
+                    },
+                    {
+                        "text": "Result Comment|Late Follicular phase 100 - 400 pg/mL"
+                    },
+                    {
+                        "text": "Result Comment|Luteal phase  50 - 150 pg/mL"
+                    },
+                    {
+                        "text": "Result Comment|Post menopausal  <18  pg/mL"
+                    },
+                    {
+                        "text": "Result Comment| This test may exhibit interference when sample is collected"
+                    },
+                    {
+                        "text": "Result Comment|from a person who is consuming a supplement containing"
+                    },
+                    {
+                        "text": "Result Comment|biotin.  It is recommended to ask all patients who may be"
+                    },
+                    {
+                        "text": "Result Comment|indicated for this test about biotin supplementation.  If"
+                    },
+                    {
+                        "text": "Result Comment|biotin interference is suspected, consider instructing"
+                    },
+                    {
+                        "text": "Result Comment|patients to stop biotin consumption at least 7 days and"
+                    },
+                    {
+                        "text": "Result Comment|retest"
+                    },
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        }
+    ]
+}

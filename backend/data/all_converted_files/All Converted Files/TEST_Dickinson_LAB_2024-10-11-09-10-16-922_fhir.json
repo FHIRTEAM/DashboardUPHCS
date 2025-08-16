@@ -1,0 +1,114 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "19",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "19"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN62",
+                        "given": [
+                            "FN62"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1967-02-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LITTLE LAKE",
+                        "state": "MI",
+                        "postalCode": "49833",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24284103830LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "GLYCO",
+                            "display": "Hemoglobin A1c"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/19"
+                },
+                "valueQuantity": {
+                    "value": 6.5,
+                    "unit": "%^%^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%^%^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.7
+                        },
+                        "high": {
+                            "value": 6.4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24284103830LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "GLYCO",
+                            "display": "Hemoglobin A1c"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/19"
+                },
+                "valueQuantity": {
+                    "value": 140.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|The American Diabetes Association 2010 Standards recommends reporting the Estimated Average Glucose in conjunction with a Hemoglobin A1c.  The Ortho Clinical Diagnostic Hemoglobin A1c method is an immunoturbidimetric method, certified by the NGSP and standardized to the DCCT reference assay.|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 74.0
+                        },
+                        "high": {
+                            "value": 106.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

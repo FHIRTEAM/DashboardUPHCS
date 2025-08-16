@@ -1,0 +1,81 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "282",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "282"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN374",
+                        "given": [
+                            "FN374"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1986-03-27",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BATTLE CREEK",
+                        "state": "MI",
+                        "postalCode": "49014",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "NM"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 3483.2,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "H66.91^Otitis media, unspecified, right ear^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/282"
+                }
+            }
+        }
+    ]
+}

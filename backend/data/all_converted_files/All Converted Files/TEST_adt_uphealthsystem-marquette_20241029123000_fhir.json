@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "136",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "136"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Coleman",
+                        "given": [
+                            "Brooklyn"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1953-01-16",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "499469040",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R31.29^Other microscopic hematuria^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/136"
+                }
+            }
+        }
+    ]
+}

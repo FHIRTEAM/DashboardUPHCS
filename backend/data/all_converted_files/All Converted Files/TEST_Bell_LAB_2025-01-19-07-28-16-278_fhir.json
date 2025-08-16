@@ -1,0 +1,140 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "10",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "10"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN33",
+                        "given": [
+                            "FN33"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1984-05-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0118RL00003S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "94531-1",
+                            "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/10"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|SARS-CoV-2 Virus viral RNA is Not Detected.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|This assay was completed using a Real Time-PCR (RT-PCR) or Transcription|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Mediated Amplification (TMA) based COVID-19 assay.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|The Aptima SARS-CoV-2 assay is a nucleic acid amplification test that is|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|equivalent to RT-PCR utilizing transcription mediated amplification (TMA)|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|technology for the qualitative detection of RNA from SARS-CoV-2 in clinical|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|specimens.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Not detected results do not preclude SARS-COV2 infection and should not be used|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|as the sole basis for patient management decisions. Negative results must be|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|combined with clinical observations, patient history, and epidemiological|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|information.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|This test has been authorized by the FDA under an Emergency Use Authorization|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|(EUA). This test is only authorized for the duration of time the declaration|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|that circumstances exist justifying the authorization of an emergency use of in|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|vitro diagnostic tests for the detection of SARS-CoV-2 infection under section|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|564(b) (1) of the Act, 21 U.S.C. 360bb-3(b) (1), unless the authorization is|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|terminated or revoked sooner.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Information for Healthcare Providers: https://www.fda.gov/media/138095/download|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Information for Patients:  https://www.fda.gov/media/138098/download|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Test Performed at:|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|UP Health System Marquette|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Avenue|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Marquette, MI 49855-4550|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Medical Director: Jeffrey Conklin, MD  CLIA: 23D0038098|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        }
+    ]
+}

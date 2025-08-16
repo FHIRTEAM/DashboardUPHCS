@@ -1,0 +1,764 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "29",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "29"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN92",
+                        "given": [
+                            "FN92"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2002-02-04",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "SAULT STE MARIE",
+                        "state": "MI",
+                        "postalCode": "49783",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 16.8,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 10.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 14.1,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.8
+                        },
+                        "high": {
+                            "value": 7.7
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 84.4,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 42.0
+                        },
+                        "high": {
+                            "value": 75.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.1,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.6,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 2.0,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.5
+                        },
+                        "high": {
+                            "value": 3.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 11.9,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 16.0
+                        },
+                        "high": {
+                            "value": 52.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.4,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.8
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 2.5,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.0
+                        },
+                        "high": {
+                            "value": 11.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.1,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.5,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 4.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.0,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 2.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 0.1,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 4.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 6.39,
+                    "unit": "10*6/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*6/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.32
+                        },
+                        "high": {
+                            "value": 5.72
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 18.0,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 13.5
+                        },
+                        "high": {
+                            "value": 17.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 53.0,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 38.8
+                        },
+                        "high": {
+                            "value": 50.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 82.9,
+                    "unit": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 81.2
+                        },
+                        "high": {
+                            "value": 95.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 28.2,
+                    "unit": "pg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 26.0
+                        },
+                        "high": {
+                            "value": 32.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 34.0,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 31.0
+                        },
+                        "high": {
+                            "value": 36.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 14.0,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1305119",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CBC",
+                            "display": "CBC"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/29"
+                },
+                "valueQuantity": {
+                    "value": 445.0,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 140.0
+                        },
+                        "high": {
+                            "value": 440.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

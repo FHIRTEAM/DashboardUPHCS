@@ -1,0 +1,132 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "2",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "2"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN4",
+                        "given": [
+                            "FN4"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1966-07-04",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-347Z0076Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB853",
+                            "display": "CANCER ANTIGEN 27.29"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "valueQuantity": {
+                    "value": 14.5,
+                    "unit": "U/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/mL"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION: Cancer Antigen 27.29"
+                    },
+                    {
+                        "text": "|The CA 27.29 assay is intended for use in monitoring: 1) disease"
+                    },
+                    {
+                        "text": "|progression and/or response to therapy in patients with metastatic"
+                    },
+                    {
+                        "text": "|disease, and 2) disease recurrence in patients treated previously"
+                    },
+                    {
+                        "text": "|for stages II or III breast carcinoma who are clinically free of"
+                    },
+                    {
+                        "text": "|the disease. Serial testing in patients who are clinically free of"
+                    },
+                    {
+                        "text": "|disease should be used in conjunction with other clinical methods"
+                    },
+                    {
+                        "text": "|for early detection of cancer recurrence."
+                    },
+                    {
+                        "text": "|Limitations: Patients with confirmed breast carcinoma frequently"
+                    },
+                    {
+                        "text": "|have CA 27.29 assay values in the same range as healthy"
+                    },
+                    {
+                        "text": "|individuals.  Elevations may also be observed in patients with non"
+                    },
+                    {
+                        "text": "|malignant disease. Results of this test must always be interpreted"
+                    },
+                    {
+                        "text": "|in the context of morphologic and other relevant data, and should"
+                    },
+                    {
+                        "text": "|not be used alone for a diagnosis of malignancy."
+                    },
+                    {
+                        "text": "|Methodology: Siemens Atellica IM BR 27.29 (BR)  chemiluminescent"
+                    },
+                    {
+                        "text": "|immunoassay was used. Results obtained with different assay"
+                    },
+                    {
+                        "text": "|methods or kits cannot be used interchangeably."
+                    },
+                    {
+                        "text": "|Performed By: ARUP Laboratories"
+                    },
+                    {
+                        "text": "|500 Chipeta Way"
+                    },
+                    {
+                        "text": "|Salt Lake City, UT 84108"
+                    },
+                    {
+                        "text": "|Laboratory Director: Jonathan R. Genzen, MD, PhD"
+                    },
+                    {
+                        "text": "|CLIA Number: 46D0523979"
+                    }
+                ]
+            }
+        }
+    ]
+}

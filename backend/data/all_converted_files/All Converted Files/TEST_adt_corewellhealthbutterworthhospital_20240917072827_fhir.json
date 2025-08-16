@@ -1,0 +1,75 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "70",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "70"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Green",
+                        "given": [
+                            "Sebastian"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1982-08-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "NM"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 100310510901.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "TX"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 3.0,
+                    "unit": "unknown"
+                }
+            }
+        }
+    ]
+}

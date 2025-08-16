@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "204",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "204"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN299",
+                        "given": [
+                            "FN299"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1955-01-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498548912",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-346-0187",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lactic Acid",
+                            "display": "Lactic Acid Ven"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/204"
+                },
+                "valueQuantity": {
+                    "value": 2.0,
+                    "unit": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|The normal blood lactate concentration in unstressed patients is 0.5-1 mmol/L.\\.br\\Patients with critical illness can be considered to have normal lactate concentrations of less than 2 mmol/L.\\.br\\\\.br\\Hyperlactatemia is defined as a persistent, mild to moderate  increase in blood (2-4 mmol/L) lactic acid concentration without metabolic acidosis.\\.br\\\\.br\\Persistently increased blood lactate levels (usually >4-5 mmol/L) may be associated with metabolic acidosis."
+                    }
+                ]
+            }
+        }
+    ]
+}

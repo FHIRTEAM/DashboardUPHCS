@@ -1,0 +1,351 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "74",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "74"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Parker",
+                        "given": [
+                            "Amelia"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1951-06-07",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "Covington",
+                        "state": "MI",
+                        "postalCode": "49919",
+                        "country": "United States"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S06.6X0D^TRAUMATIC SUBARACHNOID HEMORRHAGE WITHOUT LOSS OF CONSCIOUSNESS, SUBSEQUENT ENCOUNTER"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S02.81XD^FRACTURE OF OTHER SPECIFIED SKULL AND FACIAL BONES, RIGHT SIDE, SUBSEQUENT ENCOUNTER FOR FRACTURE WITH ROUTINE HEALING"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "E87.1^HYPO-OSMOLALITY AND HYPONATREMIA"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "D69.6^THROMBOCYTOPENIA, UNSPECIFIED"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z87.820^PERSONAL HISTORY OF TRAUMATIC BRAIN INJURY"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "G40.89^OTHER SEIZURES"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "N40.1^BENIGN PROSTATIC HYPERPLASIA WITH LOWER URINARY TRACT SYMPTOMS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I10^ESSENTIAL (PRIMARY) HYPERTENSION"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z86.73^PERSONAL HISTORY OF TRANSIENT ISCHEMIC ATTACK (TIA), AND CEREBRAL INFARCTION WITHOUT RESIDUAL DEFICITS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z20.822^CONTACT WITH AND (SUSPECTED) EXPOSURE TO COVID-19"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "M62.81^MUSCLE WEAKNESS (GENERALIZED)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z91.81^HISTORY OF FALLING"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R26.81^UNSTEADINESS ON FEET"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/74"
+                }
+            }
+        }
+    ]
+}

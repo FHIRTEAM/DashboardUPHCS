@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "155",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "155"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN214",
+                        "given": [
+                            "FN214"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1970-08-22",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621330",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-058-0027",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Hemoglobin A1C",
+                            "display": "Hgb A1C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/155"
+                },
+                "valueQuantity": {
+                    "value": 5.4,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        }
+    ]
+}

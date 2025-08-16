@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "125",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "125"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Watson",
+                        "given": [
+                            "Hannah"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1991-08-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "499461519",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "O16.4^Pregnant state, incidental^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/125"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z33.1^Unspecified maternal hypertension, complicating childbirth^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/125"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "177",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "177"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN236",
+                        "given": [
+                            "FN236"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1989-10-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-047CH00140",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB6937",
+                            "display": "TROPONIN I, HIGH SENSITIVITY (HSTRP)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/177"
+                },
+                "valueQuantity": {
+                    "unit": "ng/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/L"
+                },
+                "note": [
+                    {
+                        "text": "L|High-sensitivity troponin I results are reported in ng/L making the result appear to be 1,000 times higher than the contemporary troponin I value which is reported in ng/ml."
+                    },
+                    {
+                        "text": "L"
+                    },
+                    {
+                        "text": "L|Results from Abbott."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "123",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "123"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN182",
+                        "given": [
+                            "FN182"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1983-10-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "498490283",
+                        "country": "US"
+                    }
+                ]
+            }
+        }
+    ]
+}

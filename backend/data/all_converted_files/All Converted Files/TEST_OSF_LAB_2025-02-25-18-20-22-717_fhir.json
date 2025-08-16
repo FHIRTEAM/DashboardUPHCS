@@ -1,0 +1,140 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "179",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "179"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN127",
+                        "given": [
+                            "FN127"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1972-09-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ROCK",
+                        "state": "MI",
+                        "postalCode": "49880",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-056MC00040",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/179"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-056MC00040",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/179"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-056MC00040",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/179"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-056MC00040",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/179"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|This test was performed by a Reverse Transcription PCR Method."
+                    }
+                ]
+            }
+        }
+    ]
+}

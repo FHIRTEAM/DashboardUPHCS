@@ -1,0 +1,158 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "9",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "9"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN28",
+                        "given": [
+                            "FN28"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1992-03-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24MR0001521R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "625-4",
+                            "display": "Bacteria identified in Stool by Culture"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/9"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|***AMENDED  REPORTS***|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Verified  Date/Time:  8/11/2024  09:12  EDT|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Rare  Bacillus  cereus|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|This test was developed and its performance characteristics|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|determined by UP Health System Marquette Laboratory. It has|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|not been cleared or approved by the FDA.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Negative for Salmonella, Shigella, and E.coli 0157:H7|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Negative for Campylobacter and a screen for Yersinia species|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|***FINAL  REPORTS***|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Verified  Date/Time:  8/11/2024  09:12  EDT|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Rare Bacillus cereus|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Negative for Salmonella, Shigella, and E.coli 0157:H7|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Negative for Campylobacter and a screen for Yersinia species|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|***PRELIMINARY  REPORTS***|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Verified  Date/Time:  8/9/2024  09:03  EDT|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Stool  Culture  in  Progress|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L||RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|PERFORMED AT UP HEALTH SYSTEM - MARQUETTE|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Ave.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Marquette, MI 49855|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Jeffrey Conklin, M.D., Medical Director|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|CLIA #23D0038098|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        }
+    ]
+}

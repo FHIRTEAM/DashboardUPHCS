@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "3"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN8",
+                        "given": [
+                            "FN8"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1955-07-31",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CRYSTAL FALLS",
+                        "state": "MI",
+                        "postalCode": "49920",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25IR-035H0039Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB293",
+                            "display": "MORPHOLOGY"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/3"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

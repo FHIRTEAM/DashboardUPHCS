@@ -1,0 +1,291 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "42",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "42"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN104",
+                        "given": [
+                            "FN104"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1997-07-09",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24152290600LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "COR",
+                            "display": "Coronary Risk Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/42"
+                },
+                "valueQuantity": {
+                    "value": 5.7,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|ATP III Classification of LDL Cholesterol, Cholesterol, Triglycerides|RE"
+                    },
+                    {
+                        "text": "L|and HDL Cholesterol (mg/dl)|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L|LDL Cholesterol - Primary Target of Therapy|RE"
+                    },
+                    {
+                        "text": "L|< 100 \tOptimal|RE"
+                    },
+                    {
+                        "text": "L|100-129 \tNear Optimal / Above Optimal|RE"
+                    },
+                    {
+                        "text": "L|130-159 \tBorderline High|RE"
+                    },
+                    {
+                        "text": "L|160-189 \tHigh|RE"
+                    },
+                    {
+                        "text": "L|>or= 190 \tVery High|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L|Total Cholesterol|RE"
+                    },
+                    {
+                        "text": "L|<200 \tDesirable|RE"
+                    },
+                    {
+                        "text": "L|200-239 \tBorderline High|RE"
+                    },
+                    {
+                        "text": "L|>or= 240 \tHigh|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L|Triglycerides|RE"
+                    },
+                    {
+                        "text": "L|<150 \tNormal|RE"
+                    },
+                    {
+                        "text": "L|150-199 \tBorderline High|RE"
+                    },
+                    {
+                        "text": "L|200-499 \tHigh|RE"
+                    },
+                    {
+                        "text": "L|>or=500 \tVery High|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L|HDL Cholesterol|RE"
+                    },
+                    {
+                        "text": "L|<40 \tLow|RE"
+                    },
+                    {
+                        "text": "L|>or= 60 \tHigh|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24152290600LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "COR",
+                            "display": "Coronary Risk Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/42"
+                },
+                "valueQuantity": {
+                    "value": 181.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 120.0
+                        },
+                        "high": {
+                            "value": 200.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24152290600LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "COR",
+                            "display": "Coronary Risk Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/42"
+                },
+                "valueQuantity": {
+                    "value": 32.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 40.0
+                        },
+                        "high": {
+                            "value": 59.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24152290600LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "COR",
+                            "display": "Coronary Risk Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/42"
+                },
+                "valueQuantity": {
+                    "value": 113.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|LDL cholesterol should be measured on a fasting blood sample.  The|RE"
+                    },
+                    {
+                        "text": "L|National Cholesterol Education Program (NCEP) has recommended that the|RE"
+                    },
+                    {
+                        "text": "L|optimal level of LDL cholesterol to be less than 100 mg/dL.|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 99.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24152290600LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "COR",
+                            "display": "Coronary Risk Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/42"
+                },
+                "valueQuantity": {
+                    "value": 179.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 30.0
+                        },
+                        "high": {
+                            "value": 149.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

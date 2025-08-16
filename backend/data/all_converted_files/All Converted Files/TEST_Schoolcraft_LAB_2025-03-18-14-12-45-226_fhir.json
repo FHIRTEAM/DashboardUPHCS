@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "244",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "244"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN338",
+                        "given": [
+                            "FN338"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1954-05-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541027",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-077-0134",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": ".Morphology (SCHL)",
+                            "display": ".Morphology (SCHL)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/244"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

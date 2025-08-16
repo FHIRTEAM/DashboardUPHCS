@@ -1,0 +1,129 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "197",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "197"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN285",
+                        "given": [
+                            "FN285"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-05-11",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0311C00245U.1L2755312.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "75241-0",
+                            "display": "Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/197"
+                },
+                "valueQuantity": {
+                    "value": 0.05,
+                    "unit": "NG/ML^NG/ML^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NG/ML^NG/ML^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|                    INTERPRETATION|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|*LOWER RESPIRATORY TRACT INFECTION (LRTI)|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT less than 0.1 ng/mL   bacterial infection very unlikely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT 0.1 - 0.24 ng/mL      bacterial infection unlikely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT 0.25 - 0.49 ng/mL     bacterial infection possible|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT 0.5 ng/mL or greater  bacterial infection likely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|*SEPSIS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT less than 0.5 ng/mL   systemic infection unlikely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT 0.5 - 0.9 ng/mL       systemic infection possible|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PCT greater than 1 ng/mL  systemic infection likely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|NOTE:  Low PCT values (less than 0.25 ng/mL for LRTI and|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|less than 0.5 ng/mL for sepsis) do NOT exclude an infection.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Furthermore, increased PCT levels can occur without|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|infection.  Any PCT value should be interpreted in the|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|context of the clinical status of the patient and other|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|laboratory results and diagnostic evidence.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ]
+            }
+        }
+    ]
+}

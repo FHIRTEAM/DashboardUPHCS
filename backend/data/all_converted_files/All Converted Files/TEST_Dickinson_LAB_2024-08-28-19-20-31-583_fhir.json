@@ -1,0 +1,73 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "18",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "18"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN61",
+                        "given": [
+                            "FN61"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1938-03-04",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "49855",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24241071820LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "B12",
+                            "display": "Vitamin B12"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/18"
+                },
+                "valueQuantity": {
+                    "unit": "pg/mL^pg/mL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL^pg/mL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 239.0
+                        },
+                        "high": {
+                            "value": 931.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

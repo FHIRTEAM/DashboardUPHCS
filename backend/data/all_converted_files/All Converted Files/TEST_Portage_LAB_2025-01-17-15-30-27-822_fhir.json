@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "192",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "192"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN264",
+                        "given": [
+                            "FN264"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1949-02-20",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0117C00174U.1L2731295.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "3040-3",
+                            "display": "Lipase [Enzymatic activity/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/192"
+                },
+                "valueQuantity": {
+                    "value": 141.0,
+                    "unit": "U/L^U/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 23.0
+                        },
+                        "high": {
+                            "value": 300.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

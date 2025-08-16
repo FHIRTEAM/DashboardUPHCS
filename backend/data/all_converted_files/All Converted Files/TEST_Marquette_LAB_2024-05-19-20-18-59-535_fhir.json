@@ -1,0 +1,630 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "39",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "39"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN102",
+                        "given": [
+                            "FN102"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1967-02-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 137.0,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 137.0
+                        },
+                        "high": {
+                            "value": 145.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "unit": "ml/min^ml/min^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ml/min^ml/min^L"
+                },
+                "note": [
+                    {
+                        "text": "L|Values >60 mL/min may be associated with Normal Kidney Function or Stage|RE"
+                    },
+                    {
+                        "text": "L|1 or 2 chronic kidney disease in the proper clinical setting.|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 4.4,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 108.0,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 98.0
+                        },
+                        "high": {
+                            "value": 107.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 22.0,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 22.0
+                        },
+                        "high": {
+                            "value": 30.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 7.0,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 16.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 96.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 74.0
+                        },
+                        "high": {
+                            "value": 106.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 19.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 17.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 0.9,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.52
+                        },
+                        "high": {
+                            "value": 1.04
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 21.11,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 12.0
+                        },
+                        "high": {
+                            "value": 20.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 9.5,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.4
+                        },
+                        "high": {
+                            "value": 10.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 7.4,
+                    "unit": "g/dL^g/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^g/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.3
+                        },
+                        "high": {
+                            "value": 8.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 4.2,
+                    "unit": "g/dL^g/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL^g/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 0.3,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.2
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 33.0,
+                    "unit": "U/L^U/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 35.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 33.0,
+                    "unit": "U/L^U/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 14.0
+                        },
+                        "high": {
+                            "value": 36.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221206LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CMP",
+                            "display": "Comprehensive Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "value": 78.0,
+                    "unit": "U/L^U/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 38.0
+                        },
+                        "high": {
+                            "value": 126.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

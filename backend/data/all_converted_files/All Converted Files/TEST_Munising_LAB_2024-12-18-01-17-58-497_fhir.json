@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "145",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "145"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN204",
+                        "given": [
+                            "FN204"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1990-02-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621452",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-353-0009",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Free T4",
+                            "display": "Free T4"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/145"
+                },
+                "valueQuantity": {
+                    "value": 0.83,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "195",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "195"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN276",
+                        "given": [
+                            "FN276"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1943-11-27",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0227R00001U.1L2749449.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4542-7",
+                            "display": "Haptoglobin [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/195"
+                },
+                "valueQuantity": {
+                    "unit": "mg/dL^mg/dL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|   |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Test Performed at:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|UP Health System Marquette|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Avenue|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Marquette, MI 49855-4550|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Medical Director: Jeffrey Conklin, MD  CLIA: 23D0038098|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 30.0
+                        },
+                        "high": {
+                            "value": 200.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

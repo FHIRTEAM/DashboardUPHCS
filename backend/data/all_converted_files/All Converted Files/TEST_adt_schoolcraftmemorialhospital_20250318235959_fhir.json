@@ -1,0 +1,75 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "231",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "231"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN325",
+                        "given": [
+                            "FN325"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1990-04-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "Gladstone",
+                        "state": "MI",
+                        "postalCode": "49837",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "K51.00^Ulcerative (chronic) pancolitis without complications^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/231"
+                }
+            }
+        }
+    ]
+}

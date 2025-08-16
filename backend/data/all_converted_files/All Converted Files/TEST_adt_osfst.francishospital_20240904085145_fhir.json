@@ -1,0 +1,57 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "76",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "76"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Anderson",
+                        "given": [
+                            "James"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1942-01-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "NM"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 260.0,
+                    "unit": "unknown"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "44",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "44"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Baker",
+                        "given": [
+                            "Henry"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^2017559",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 63.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 180.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R0789^Chest tightness^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/44"
+                }
+            }
+        }
+    ]
+}

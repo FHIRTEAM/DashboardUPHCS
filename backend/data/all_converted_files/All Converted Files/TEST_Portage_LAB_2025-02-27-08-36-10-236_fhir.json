@@ -1,0 +1,91 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "195",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "195"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN276",
+                        "given": [
+                            "FN276"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1943-11-27",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0227C00030U.1L2749448.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "14805-6",
+                            "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/195"
+                },
+                "valueQuantity": {
+                    "value": 308.0,
+                    "unit": "U/L^U/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|EFFECTIVE SEPTEMBER 23, 2021 LDH TESTING METHODS HAVE|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|CHANGED. PLEASE NOTE THE NEW REFERENCE INTERVAL 120-246 U/L.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|A SIGNIFICANT DROP IN PATIENT VALUES MAY BE NOTICED IN |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|COMPARISON WITH PREVIOUS VALUES.  A BASELINE MUST BE|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|ESTABLISHED FROM THESE NEW VALUES.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 120.0
+                        },
+                        "high": {
+                            "value": 246.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

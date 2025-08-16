@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "93",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "93"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN152",
+                        "given": [
+                            "FN152"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1957-10-05",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "498558930",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "F41.8^Other specified anxiety disorders^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/93"
+                }
+            }
+        }
+    ]
+}

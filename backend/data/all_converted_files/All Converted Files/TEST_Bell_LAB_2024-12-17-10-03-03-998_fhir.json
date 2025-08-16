@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "8",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "8"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN26",
+                        "given": [
+                            "FN26"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1998-06-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1217S00002S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2106-3",
+                            "display": "Choriogonadotropin (pregnancy test) [Presence] in Urine"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/8"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

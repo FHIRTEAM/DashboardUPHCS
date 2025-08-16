@@ -1,0 +1,185 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "194",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "194"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN272",
+                        "given": [
+                            "FN272"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1955-01-21",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MOHAWK",
+                        "state": "MI",
+                        "postalCode": "49950",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0217CG00011U.1L2745020.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "5902-2",
+                            "display": "Prothrombin time (PT)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/194"
+                },
+                "valueQuantity": {
+                    "value": 1.6,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|THE THERAPEUTIC RANGE OF ORAL ANTICOAGULANT THERAPY IS BASED|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|ON THE USE OF THE INR.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|          CONDITION                                INR|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|          |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PROPHYLAXIS OF VENOUS THROMBOSIS STARTED          |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|2 WEEKS PRIOR TO SURGERY:                         1.5-2.5|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PRIOR TO HIP SURGERY:                             2.0-3.0|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PRIM.   SECOND. PREVENTION OF THROMBOSIS:         2.0-3.0|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PREVENTION OF EMBOLISM:                           2.0-3.0|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PREVENTION OF RECURRENT VENOUS THROMBOSIS:        2.4-3.0|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PREVENTION OF RECURRENT THROMBOLISM OR TREATMENT|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|OF PATIENT WITH MECHANICAL HEART VALVES:          2.5-3.5  |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.9
+                        },
+                        "high": {
+                            "value": 1.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0217CG00011U.1L2745020.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "5902-2",
+                            "display": "Prothrombin time (PT)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/194"
+                },
+                "valueQuantity": {
+                    "value": 19.1,
+                    "unit": "SEC^SEC^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "SEC^SEC^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 10.4
+                        },
+                        "high": {
+                            "value": 13.4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0217CG00011U.2L2745020.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "14979-9",
+                            "display": "aPTT in Platelet poor plasma by Coagulation assay"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/194"
+                },
+                "valueQuantity": {
+                    "value": 31.0,
+                    "unit": "SEC^SEC^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "SEC^SEC^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 24.0
+                        },
+                        "high": {
+                            "value": 37.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

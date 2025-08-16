@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "306",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "306"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN386",
+                        "given": [
+                            "FN386"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1977-06-25",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRON MOUNTAIN",
+                        "state": "MI",
+                        "postalCode": "49801",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z00.00^ENC GEN ADULT EXAM W/O ABNORM FIND^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/306"
+                }
+            }
+        }
+    ]
+}

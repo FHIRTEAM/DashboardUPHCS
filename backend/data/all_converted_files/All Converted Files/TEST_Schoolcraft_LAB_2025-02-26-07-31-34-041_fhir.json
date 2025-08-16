@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "222",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "222"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN317",
+                        "given": [
+                            "FN317"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1938-07-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GULLIVER",
+                        "state": "MI",
+                        "postalCode": "498409008",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-045-0102",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Cytology Thin Prep Non Gyn MOL",
+                            "display": "Cytology Thin Prep Non Gyn MOL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/222"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

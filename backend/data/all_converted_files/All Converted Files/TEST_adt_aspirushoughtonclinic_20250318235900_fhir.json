@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "247",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "247"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN253",
+                        "given": [
+                            "FN253"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1947-11-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ATLANTIC MINE",
+                        "state": "MI",
+                        "postalCode": "49905",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "L40.0^Psoriasis vulgaris^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/247"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z79.899^Other long term (current) drug therapy^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/247"
+                }
+            }
+        }
+    ]
+}

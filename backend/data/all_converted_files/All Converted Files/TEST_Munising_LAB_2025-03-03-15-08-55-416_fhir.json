@@ -1,0 +1,99 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "159",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "159"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN218",
+                        "given": [
+                            "FN218"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-08-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621130",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-059-0019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Vitamin D 25 Hydroxy UPHS",
+                            "display": "Vitamin D 25 Hydroxy UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/159"
+                },
+                "valueQuantity": {
+                    "value": 22.3,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|INTERPRETATION:"
+                    },
+                    {
+                        "text": "Result Comment|<15.0 Deficiency"
+                    },
+                    {
+                        "text": "Result Comment|15.0-30.0 Insufficiency"
+                    },
+                    {
+                        "text": "Result Comment|30.1-100.0 Sufficiency"
+                    },
+                    {
+                        "text": "Result Comment|>100.0 Possibly Toxicity"
+                    },
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        }
+    ]
+}

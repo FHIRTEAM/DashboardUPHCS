@@ -1,0 +1,99 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "190",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "190"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Brown",
+                        "given": [
+                            "Olivia"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1987-06-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "49946",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-271C0085Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB90",
+                            "display": "HEMOGLOBIN A1C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/190"
+                },
+                "valueQuantity": {
+                    "value": 6.6,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.3
+                        },
+                        "high": {
+                            "value": 5.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-271C0085Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB90",
+                            "display": "HEMOGLOBIN A1C"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/190"
+                },
+                "valueQuantity": {
+                    "value": 143.0,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                }
+            }
+        }
+    ]
+}

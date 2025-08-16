@@ -1,0 +1,124 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "184",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "184"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Anderson",
+                        "given": [
+                            "James"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1986-03-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MASS CITY",
+                        "state": "MI",
+                        "postalCode": "49948",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-079C1115Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB743",
+                            "display": "PROTEIN/CREATININE RATIO, URINE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/184"
+                },
+                "valueQuantity": {
+                    "value": 0.06,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.165
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-079C1115Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB743",
+                            "display": "PROTEIN/CREATININE RATIO, URINE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/184"
+                },
+                "valueQuantity": {
+                    "value": 166.7,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-079C1115Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB743",
+                            "display": "PROTEIN/CREATININE RATIO, URINE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/184"
+                },
+                "valueQuantity": {
+                    "value": 10.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

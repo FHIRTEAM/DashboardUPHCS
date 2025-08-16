@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "167",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "167"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN226",
+                        "given": [
+                            "FN226"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1959-05-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621147",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0034",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "C-Reactive Protein",
+                            "display": "CRP"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/167"
+                },
+                "valueQuantity": {
+                    "value": 0.1,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

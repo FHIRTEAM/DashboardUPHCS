@@ -1,0 +1,95 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "39",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "39"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN102",
+                        "given": [
+                            "FN102"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1967-02-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24140221204LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "DDT",
+                            "display": "D-Dimer"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/39"
+                },
+                "valueQuantity": {
+                    "unit": "mg/L FEU^mg/L FEU^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/L FEU^mg/L FEU^L"
+                },
+                "note": [
+                    {
+                        "text": "L|The normal ranges reported with this D-Dimer assay are designed for the|RE"
+                    },
+                    {
+                        "text": "L|evaluation of DIC.  The normal ranges are not designed to exclude the|RE"
+                    },
+                    {
+                        "text": "L|possibility of deep vein thrombosis / thromboembolic  disease (DVT/TE). |RE"
+                    },
+                    {
+                        "text": "L|However, in patients judged to have low to intermediate risk for DVT/TE,|RE"
+                    },
+                    {
+                        "text": "L|a value below 0.5 excludes DVT/TE to a greater degree than 95%|RE"
+                    },
+                    {
+                        "text": "L|certainty, based on clinical studies by Siemens; this cut-off of 0.5 has|RE"
+                    },
+                    {
+                        "text": "L|been FDA-approved.|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 1.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

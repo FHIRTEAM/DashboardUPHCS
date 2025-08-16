@@ -1,0 +1,105 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "315",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "315"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN378",
+                        "given": [
+                            "FN378"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2005-05-02",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NEW BALTIMORE",
+                        "state": "MI",
+                        "postalCode": "48051",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "DT"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 20250302.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R10.9^Unspecified abdominal pain^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/315"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R11.10^Vomiting, unspecified^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/315"
+                }
+            }
+        }
+    ]
+}

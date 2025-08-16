@@ -1,0 +1,62 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "57",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "57"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Sanders",
+                        "given": [
+                            "Matthew"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R079^Chest pain^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/57"
+                }
+            }
+        }
+    ]
+}

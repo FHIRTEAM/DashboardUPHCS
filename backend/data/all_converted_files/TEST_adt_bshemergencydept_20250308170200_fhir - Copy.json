@@ -1,0 +1,103 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "284",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "284"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN376",
+                        "given": [
+                            "FN376"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^^PH",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^^PH",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^^PH",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^^PH",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2008-10-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "PULLMAN",
+                        "state": "MI",
+                        "postalCode": "49450",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "NM"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 4204.61,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S60.011A^Contusion of right thumb without damage to nail, initial encounter^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/284"
+                }
+            }
+        }
+    ]
+}

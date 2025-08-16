@@ -1,0 +1,93 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "154",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "154"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN213",
+                        "given": [
+                            "FN213"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1943-09-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621130",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-059-0014",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Levetiracetam (Keppra) UPHS",
+                            "display": "Levetiracetam (Keppra) UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/154"
+                },
+                "valueQuantity": {
+                    "value": 7.1,
+                    "unit": "mcg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mcg/mL"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|Performed at:  01 - Labcorp Burlington"
+                    },
+                    {
+                        "text": "Result Comment|1447 York Court, Burlington, NC  272153361"
+                    },
+                    {
+                        "text": "Result Comment|Lab Director: Sanjai Nagendra MD, Phone:  8007624344"
+                    },
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        }
+    ]
+}

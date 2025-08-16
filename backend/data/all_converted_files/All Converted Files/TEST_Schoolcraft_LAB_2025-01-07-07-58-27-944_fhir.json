@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "208",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "208"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN303",
+                        "given": [
+                            "FN303"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-09-20",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541539",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-362-0058",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Cytology Thin Prep Non Gyn MOL",
+                            "display": "Cytology Thin Prep Non Gyn MOL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/208"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

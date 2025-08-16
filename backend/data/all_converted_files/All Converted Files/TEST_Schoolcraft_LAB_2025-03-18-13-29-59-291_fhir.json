@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "242",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "242"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN336",
+                        "given": [
+                            "FN336"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1954-05-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541622",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-077-0117",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Procalcitonin",
+                            "display": "Procalcitonin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/242"
+                },
+                "valueQuantity": {
+                    "value": 0.06,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                }
+            }
+        }
+    ]
+}

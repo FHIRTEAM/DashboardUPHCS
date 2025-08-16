@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "186",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "186"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Frost",
+                        "given": [
+                            "Camille"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1942-05-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-137I0194Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB147",
+                            "display": "ANTI NUCLEAR ANTIBODY TITER"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "titer",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "titer"
+                },
+                "note": [
+                    {
+                        "text": "|Anti-nuclear antibody (ANA) negative for homogeneous, speckled, nucleolar, centromere, and atypical speckled patterns."
+                    }
+                ]
+            }
+        }
+    ]
+}

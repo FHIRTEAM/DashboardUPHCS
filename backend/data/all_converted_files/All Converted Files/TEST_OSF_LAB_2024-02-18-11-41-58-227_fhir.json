@@ -1,0 +1,743 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "173",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "173"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN232",
+                        "given": [
+                            "FN232"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1980-05-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.0
+                        },
+                        "high": {
+                            "value": 12.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(6)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(6)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.4
+                        },
+                        "high": {
+                            "value": 5.8
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 13.0
+                        },
+                        "high": {
+                            "value": 16.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 38.0
+                        },
+                        "high": {
+                            "value": 50.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 82.0
+                        },
+                        "high": {
+                            "value": 96.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "pg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 26.0
+                        },
+                        "high": {
+                            "value": 32.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 31.0
+                        },
+                        "high": {
+                            "value": 36.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 140.0
+                        },
+                        "high": {
+                            "value": 440.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.8
+                        },
+                        "high": {
+                            "value": 15.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.0
+                        },
+                        "high": {
+                            "value": 12.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 40.0
+                        },
+                        "high": {
+                            "value": 68.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 19.0
+                        },
+                        "high": {
+                            "value": 49.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.0
+                        },
+                        "high": {
+                            "value": 13.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 8.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.4
+                        },
+                        "high": {
+                            "value": 5.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.9
+                        },
+                        "high": {
+                            "value": 3.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.1
+                        },
+                        "high": {
+                            "value": 0.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "10(3)/mcL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10(3)/mcL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24SE-049HE00019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB1888",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/173"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

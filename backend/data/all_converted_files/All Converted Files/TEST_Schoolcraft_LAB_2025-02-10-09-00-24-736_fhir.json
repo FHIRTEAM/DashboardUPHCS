@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "212",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "212"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN307",
+                        "given": [
+                            "FN307"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1958-03-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MC MILLAN",
+                        "state": "MI",
+                        "postalCode": "498539105",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-035-0200",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Pathology Request",
+                            "display": "Pathology Request"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/212"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

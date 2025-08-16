@@ -1,0 +1,159 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "169",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "169"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN228",
+                        "given": [
+                            "FN228"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1984-08-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "EBEN JUNCTION",
+                        "state": "MI",
+                        "postalCode": "498250114",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0054",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Reticulocyte Count UPHS",
+                            "display": "Reticulocyte Count UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169"
+                },
+                "valueQuantity": {
+                    "value": 1.98,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0054",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Reticulocyte Count UPHS",
+                            "display": "Reticulocyte Count UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169"
+                },
+                "valueQuantity": {
+                    "value": 96.8,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0054",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Reticulocyte Count UPHS",
+                            "display": "Reticulocyte Count UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169"
+                },
+                "valueQuantity": {
+                    "value": 18.1,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0054",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Reticulocyte Count UPHS",
+                            "display": "Reticulocyte Count UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169"
+                },
+                "valueQuantity": {
+                    "value": 29.9,
+                    "unit": "pg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg"
+                }
+            }
+        }
+    ]
+}

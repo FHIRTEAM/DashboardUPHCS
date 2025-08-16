@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "71",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "71"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Baker",
+                        "given": [
+                            "Henry"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1953-12-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "49908",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "Z12.31^Encounter for screening mammogram for malignant neoplasm of breast^ICD-10-CM"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/71"
+                }
+            }
+        }
+    ]
+}

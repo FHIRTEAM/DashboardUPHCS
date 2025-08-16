@@ -1,0 +1,99 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "146",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "146"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN205",
+                        "given": [
+                            "FN205"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1970-04-10",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MARQUETTE",
+                        "state": "MI",
+                        "postalCode": "498552662",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-365-0019",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Vitamin D 25 Hydroxy UPHS",
+                            "display": "Vitamin D 25 Hydroxy UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/146"
+                },
+                "valueQuantity": {
+                    "value": 14.8,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                },
+                "note": [
+                    {
+                        "text": "Result Comment|INTERPRETATION:"
+                    },
+                    {
+                        "text": "Result Comment|<15.0 Deficiency"
+                    },
+                    {
+                        "text": "Result Comment|15.0-30.0 Insufficiency"
+                    },
+                    {
+                        "text": "Result Comment|30.1-100.0 Sufficiency"
+                    },
+                    {
+                        "text": "Result Comment|>100.0 Possibly Toxicity"
+                    },
+                    {
+                        "text": "Result Comment"
+                    },
+                    {
+                        "text": "Result Comment|Test Performed at:"
+                    },
+                    {
+                        "text": "Result Comment|UP Health System Marquette"
+                    },
+                    {
+                        "text": "Result Comment|850 West Baraga Avenue"
+                    },
+                    {
+                        "text": "Result Comment|Marquette, MI 49855-4550"
+                    },
+                    {
+                        "text": "Result Comment|Medical Director:"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "212",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "212"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN307",
+                        "given": [
+                            "FN307"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1958-03-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MC MILLAN",
+                        "state": "MI",
+                        "postalCode": "498539105",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-014-0145",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "PSA Diagnostic",
+                            "display": "PSA Diag"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/212"
+                },
+                "valueQuantity": {
+                    "value": 13.2,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|Assay is one step enzyme immunoassay based on the \"sandwich\" principle performed on the Simens Dimensions EXL."
+                    }
+                ]
+            }
+        }
+    ]
+}

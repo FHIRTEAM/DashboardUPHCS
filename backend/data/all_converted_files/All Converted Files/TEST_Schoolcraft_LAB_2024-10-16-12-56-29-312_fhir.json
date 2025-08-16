@@ -1,0 +1,92 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "201",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "201"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN255",
+                        "given": [
+                            "FN255"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1955-04-19",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "499131487",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-277-0074",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Kidney Stone Analysis MOL",
+                            "display": "Kidney Stone Analysis MOL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-24-277-0074",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Kidney Stone Analysis MOL",
+                            "display": "Kidney Stone Analysis MOL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

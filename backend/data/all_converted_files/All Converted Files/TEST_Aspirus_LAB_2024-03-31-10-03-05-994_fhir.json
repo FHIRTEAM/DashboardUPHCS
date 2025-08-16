@@ -1,0 +1,71 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "183",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "183"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Cook",
+                        "given": [
+                            "Samantha"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-05-10",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "PELKIE",
+                        "state": "MI",
+                        "postalCode": "49958",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-071M0058Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB240",
+                            "display": "FUNGAL CULTURE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/183"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "|Candida albicans"
+                    },
+                    {
+                        "text": "|Updated result: Previously reported as Yeast species on 3/13/2024 at 1502 CDT."
+                    }
+                ]
+            }
+        }
+    ]
+}

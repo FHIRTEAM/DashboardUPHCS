@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "8",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "8"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Evans",
+                        "given": [
+                            "Noah"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1943-11-22",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAKE LINDEN",
+                        "state": "MI",
+                        "postalCode": "49945",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "^2/12^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/8"
+                }
+            }
+        }
+    ]
+}

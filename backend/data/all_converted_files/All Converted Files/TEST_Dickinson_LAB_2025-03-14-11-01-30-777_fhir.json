@@ -1,0 +1,273 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "26",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "26"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN83",
+                        "given": [
+                            "FN83"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1970-09-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "FELCH",
+                        "state": "MI",
+                        "postalCode": "49831",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210267LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LIPID",
+                            "display": "Lipid Profile"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/26"
+                },
+                "valueQuantity": {
+                    "value": 152.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 140.0
+                        },
+                        "high": {
+                            "value": 199.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210267LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LIPID",
+                            "display": "Lipid Profile"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/26"
+                },
+                "valueQuantity": {
+                    "value": 96.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|Triglyceride Concentration (mg/dL)    Classification|RE"
+                    },
+                    {
+                        "text": "L|      <150                                                  Normal|RE"
+                    },
+                    {
+                        "text": "L|       150 - 199                                          Borderline High|RE"
+                    },
+                    {
+                        "text": "L|       200 - 499                                          High|RE"
+                    },
+                    {
+                        "text": "L|       >500                                                 Very High|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 10.0
+                        },
+                        "high": {
+                            "value": 149.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210267LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LIPID",
+                            "display": "Lipid Profile"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/26"
+                },
+                "valueQuantity": {
+                    "value": 54.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 40.0
+                        },
+                        "high": {
+                            "value": 59.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210267LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LIPID",
+                            "display": "Lipid Profile"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/26"
+                },
+                "valueQuantity": {
+                    "value": 79.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|LDL Concentration (mg/dL)               Classification|RE"
+                    },
+                    {
+                        "text": "L|     <100                                                  Desirable|RE"
+                    },
+                    {
+                        "text": "L|     100 - 129                                           Low Risk|RE"
+                    },
+                    {
+                        "text": "L|     130 - 159                                           Borderline High|RE"
+                    },
+                    {
+                        "text": "L|     160 - 189                                           High|RE"
+                    },
+                    {
+                        "text": "L|     >190                                                  Very HIgh Risk|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 30.0
+                        },
+                        "high": {
+                            "value": 99.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210267LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LIPID",
+                            "display": "Lipid Profile"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/26"
+                },
+                "valueQuantity": {
+                    "value": 2.8,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L| Cholesterol / HDL Ratio|RE"
+                    },
+                    {
+                        "text": "L|      CHD Risk Groups        Men           Women|RE"
+                    },
+                    {
+                        "text": "L|      Lowest                       </= 3.8         </= 2.9|RE"
+                    },
+                    {
+                        "text": "L|      Low                          3.9 - 4.7       3.0 - 3.6|RE"
+                    },
+                    {
+                        "text": "L|      Average                   4.8 - 5.9       3.7 - 4.6|RE"
+                    },
+                    {
+                        "text": "L|      Moderate                 6.0 - 6.9       4.7 - 5.6|RE"
+                    },
+                    {
+                        "text": "L|      High                           >/= 7.0         >/= 5.7|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        }
+    ]
+}

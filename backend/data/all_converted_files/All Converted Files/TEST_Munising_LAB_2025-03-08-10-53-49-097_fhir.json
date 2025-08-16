@@ -1,0 +1,202 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "161",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "161"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN220",
+                        "given": [
+                            "FN220"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1990-12-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "AU TRAIN",
+                        "state": "MI",
+                        "postalCode": "498069643",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-067-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "value": 169.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-067-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "value": 38.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-067-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "value": 39.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-067-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "value": 122.0,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|LDL cholesterol coronary heart disease (CHD risk groups)"
+                    },
+                    {
+                        "text": "Interpretive Data|less than 130 Desirable Risk"
+                    },
+                    {
+                        "text": "Interpretive Data|130-160 Borderline Risk"
+                    },
+                    {
+                        "text": "Interpretive Data|greater than 160 High Risk"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-067-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "value": 4.3,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-067-0010",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Lipid Panel",
+                            "display": "Lipid Pnl"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

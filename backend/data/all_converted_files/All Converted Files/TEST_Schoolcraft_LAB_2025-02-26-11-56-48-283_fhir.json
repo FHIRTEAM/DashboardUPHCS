@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "199",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "199"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN295",
+                        "given": [
+                            "FN295"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1971-12-08",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "498412900",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-057-0001",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Pregnancy Test Urine Qual",
+                            "display": "U Preg Ql"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/199"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-057-0001",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Pregnancy Test Urine Qual",
+                            "display": "U Preg Ql"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/199"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

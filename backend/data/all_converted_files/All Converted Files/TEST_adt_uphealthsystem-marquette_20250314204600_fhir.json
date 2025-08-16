@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "50",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "50"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN111",
+                        "given": [
+                            "FN111"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1943-04-27",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "498419017",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S90.30XA^Contusion of unspecified foot, initial encounter^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/50"
+                }
+            }
+        }
+    ]
+}

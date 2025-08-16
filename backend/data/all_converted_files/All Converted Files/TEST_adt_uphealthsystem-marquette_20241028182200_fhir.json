@@ -1,0 +1,159 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "120",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "120"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Hughes",
+                        "given": [
+                            "Joseph"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1967-07-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "BARAGA",
+                        "state": "MI",
+                        "postalCode": "499089130",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S36.113A^Multiple fractures of ribs, unspecified side, initial encounter for closed fracture^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/120"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S22.49XA^Laceration of liver, unspecified degree, initial encounter^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/120"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "J94.2^Laceration of left kidney, unspecified degree, initial encounter^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/120"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S36.039A^Hemothorax^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/120"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "S37.032A^Unspecified laceration of spleen, initial encounter^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/120"
+                }
+            }
+        }
+    ]
+}

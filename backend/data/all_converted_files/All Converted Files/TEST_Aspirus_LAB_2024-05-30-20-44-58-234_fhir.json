@@ -1,0 +1,886 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "186",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "186"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Frost",
+                        "given": [
+                            "Camille"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1942-05-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION: Extended Myositis Panel"
+                    },
+                    {
+                        "text": "|If present, myositis-specific antibodies (MSA) are specific for"
+                    },
+                    {
+                        "text": "|myositis, and may be useful in establishing diagnosis as well as"
+                    },
+                    {
+                        "text": "|prognosis. MSAs are generally regarded as mutually exclusive with"
+                    },
+                    {
+                        "text": "|rare exceptions; the occurrence of two or more MSAs should be"
+                    },
+                    {
+                        "text": "|carefully evaluated in the context of patient's clinical"
+                    },
+                    {
+                        "text": "|presentation. Myositis-associated antibodies (MAA) may be found in"
+                    },
+                    {
+                        "text": "|patients with CTD including overlap syndromes, and are generally"
+                    },
+                    {
+                        "text": "|not specific for myositis. The following table will help in"
+                    },
+                    {
+                        "text": "|identifying the association of any antibodies found as either MSAs"
+                    },
+                    {
+                        "text": "|or MAAs."
+                    },
+                    {
+                        "text": "|Antibody Specificity . . . . . . . . . . . . MSA . . . . MAA"
+                    },
+                    {
+                        "text": "|SSA 52 (Ro) (ENA) Antibody IgG . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|SSA 60 (Ro) (ENA) Antibody IgG . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|Smith/RNP (ENA) Ab, IgG  . . . . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|Jo-1 (histidyl-tRNA synthetase) Ab, IgG  . .  X"
+                    },
+                    {
+                        "text": "|PL-12 (alanyl-tRNA synthetase) Antibody  . .  X"
+                    },
+                    {
+                        "text": "|PL-7 (threonyl-tRNA synthetase) Antibody . .  X"
+                    },
+                    {
+                        "text": "|EJ (glycyl-tRNA synthetase) Antibody . . . .  X"
+                    },
+                    {
+                        "text": "|OJ (isoleucyl-tRNA synthetase) Antibody  . .  X"
+                    },
+                    {
+                        "text": "|SRP (Signal Recognition Particle) Ab . . . .  X"
+                    },
+                    {
+                        "text": "|Ku Antibody  . . . . . . . . . . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|PM/SCL 100 Antibody, IgG . . . . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|Fibrillarin (U3 RNP) Ab, IgG . . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|Mi-2 (nuclear helicase protein) Antibody . .  X"
+                    },
+                    {
+                        "text": "|P155/140 Antibody  . . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|TIF-1 gamma (155 kDa) Ab . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|SAE1 (SUMO activating enzyme) Ab . . . . . .  X"
+                    },
+                    {
+                        "text": "|MDA5 (CADM-140) Ab   . . . . . . . . . . . .  X"
+                    },
+                    {
+                        "text": "|NXP2 (Nuclear matrix proten-2)Ab . . . . . .  X"
+                    },
+                    {
+                        "text": "|This test was developed and its performance characteristics"
+                    },
+                    {
+                        "text": "|determined by ARUP Laboratories. It has not been cleared or"
+                    },
+                    {
+                        "text": "|approved by the US Food and Drug Administration. This test was"
+                    },
+                    {
+                        "text": "|performed in a CLIA certified laboratory and is intended for"
+                    },
+                    {
+                        "text": "|clinical purposes."
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "value": 0.0,
+                    "unit": "AU/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "AU/mL"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION:  Jo-1 Antibody, IgG"
+                    },
+                    {
+                        "text": "|  29 AU/mL or less.........Negative"
+                    },
+                    {
+                        "text": "|  30-40 AU/mL..............Equivocal"
+                    },
+                    {
+                        "text": "|  41 AU/mL or greater......Positive"
+                    },
+                    {
+                        "text": "|Presence of Jo-1 (antihistidyl transfer RNA [t-RNA] synthetase)"
+                    },
+                    {
+                        "text": "|antibody is associated with polymyositis and may also be seen in"
+                    },
+                    {
+                        "text": "|patients with dermatomyositis. Jo-1 antibody is associated with"
+                    },
+                    {
+                        "text": "|pulmonary involvement (interstitial lung disease), Raynaud"
+                    },
+                    {
+                        "text": "|phenomenon, arthritis, and mechanic's hands (implicated in"
+                    },
+                    {
+                        "text": "|antisynthetase syndrome)."
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 40.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "value": 1.0,
+                    "unit": "Units",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "Units"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION: Smith/RNP (ENA) Antibody, IgG"
+                    },
+                    {
+                        "text": "|  19 Units or Less ............. Negative"
+                    },
+                    {
+                        "text": "|  20 to 39 Units ............... Weak Positive"
+                    },
+                    {
+                        "text": "|  40 to 80 Units ............... Moderate Positive"
+                    },
+                    {
+                        "text": "|  81 Units or greater .......... Strong Positive"
+                    },
+                    {
+                        "text": "|Smith/RNP antibodies are frequently seen in patients with mixed"
+                    },
+                    {
+                        "text": "|connective tissue disease (MCTD) and are also associated with"
+                    },
+                    {
+                        "text": "|other systemic autoimmune rheumatic diseases (SARDs) such as"
+                    },
+                    {
+                        "text": "|systemic lupus erythematosus (SLE), systemic sclerosis, and"
+                    },
+                    {
+                        "text": "|myositis. Antibodies targeting the Smith/RNP antigenic complex"
+                    },
+                    {
+                        "text": "|also recognize Smith antigens, therefore, the Smith antibody"
+                    },
+                    {
+                        "text": "|response must be considered when interpreting these results."
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 19.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION: PM/Scl-100 Antibody, IgG by"
+                    },
+                    {
+                        "text": "|                          Immunoblot"
+                    },
+                    {
+                        "text": "|The presence of PM/Scl-100 IgG antibody along with a positive ANA"
+                    },
+                    {
+                        "text": "|IFA nucleolar pattern is associated with connective tissue"
+                    },
+                    {
+                        "text": "|diseases such as polymyositis (PM), dermatomyositis (DM), systemic"
+                    },
+                    {
+                        "text": "|sclerosis (SSc), and polymyositis/systemic sclerosis overlap"
+                    },
+                    {
+                        "text": "|syndrome. The clinical relevance of PM/Scl-100 IgG antibody with a"
+                    },
+                    {
+                        "text": "|negative ANA IFA nucleolar pattern is unknown. PM/Scl-100 is the"
+                    },
+                    {
+                        "text": "|main target epitope of the PM/Scl complex, although antibodies to"
+                    },
+                    {
+                        "text": "|other targets not detected by this assay may occur."
+                    },
+                    {
+                        "text": "|This test was developed and its performance characteristics"
+                    },
+                    {
+                        "text": "|determined by ARUP Laboratories. It has not been cleared or"
+                    },
+                    {
+                        "text": "|approved by the US Food and Drug Administration. This test was"
+                    },
+                    {
+                        "text": "|performed in a CLIA certified laboratory and is intended for"
+                    },
+                    {
+                        "text": "|clinical purposes."
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "value": 29.0,
+                    "unit": "AU/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "AU/mL"
+                },
+                "note": [
+                    {
+                        "text": "|INTERPRETIVE INFORMATION: SSA-52 (Ro52) (ENA) Antibody, IgG"
+                    },
+                    {
+                        "text": "|  29 AU/mL or Less ............. Negative"
+                    },
+                    {
+                        "text": "|  30 - 40 AU/mL ................ Equivocal"
+                    },
+                    {
+                        "text": "|  41 AU/mL or Greater .......... Positive"
+                    },
+                    {
+                        "text": "|SSA-52 (Ro52) and/or SSA-60 (Ro60) antibodies are associated with"
+                    },
+                    {
+                        "text": "|a diagnosis of Sjogren syndrome, systemic lupus erythematosus"
+                    },
+                    {
+                        "text": "|(SLE), and systemic sclerosis. SSA-52 antibody overlaps"
+                    },
+                    {
+                        "text": "|significantly with the major SSc-related antibodies. SSA-52 (Ro52)"
+                    },
+                    {
+                        "text": "|antibody occurs frequently in patients with inflammatory"
+                    },
+                    {
+                        "text": "|myopathies, often in the presence of interstitial lung disease."
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 40.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "value": 0.0,
+                    "unit": "AU/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "AU/mL"
+                },
+                "note": [
+                    {
+                        "text": "|REFERENCE INTERVAL: SSA-60 (Ro60) (ENA) Antibody, IgG"
+                    },
+                    {
+                        "text": "|  29 AU/mL or Less ............. Negative"
+                    },
+                    {
+                        "text": "|  30 - 40 AU/mL ................ Equivocal"
+                    },
+                    {
+                        "text": "|  41 AU/mL or Greater .......... Positive"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 40.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24AR-137Z0151Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB123372",
+                            "display": "MYOSITIS EXTENDED PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/186"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "|Interpretive Information: Fibrillarin (U3 RNP) Antibody, IgG"
+                    },
+                    {
+                        "text": "|The presence of fibrillarin (U3-RNP) IgG antibodies in association"
+                    },
+                    {
+                        "text": "|with an ANA IFA nucleolar pattern is suggestive of systemic"
+                    },
+                    {
+                        "text": "|sclerosis (SSc). In SSc, these antibodies are associated with"
+                    },
+                    {
+                        "text": "|distinct clinical features, such as younger age at disease onset,"
+                    },
+                    {
+                        "text": "|frequent internal organ involvement (pulmonary hypertension,"
+                    },
+                    {
+                        "text": "|myositis and renal disease). Fibrillarin antibodies are detected"
+                    },
+                    {
+                        "text": "|more frequently in African American patients with SSc compared to"
+                    },
+                    {
+                        "text": "|other ethnic groups. Strong correlation with ANA IFA results is"
+                    },
+                    {
+                        "text": "|recommended."
+                    },
+                    {
+                        "text": "|In a multi-ethnic cohort of SSc patients (n=98), U3-RNP antibodies"
+                    },
+                    {
+                        "text": "|detected by immunoblot had an agreement of 98.9 percent with the"
+                    },
+                    {
+                        "text": "|gold standard immunoprecipitation (IP) assay. Approximately 71"
+                    },
+                    {
+                        "text": "|percent (5/7) of the borderline U3-RNP results with ANA nucleolar"
+                    },
+                    {
+                        "text": "|pattern in this cohort were IP negative."
+                    },
+                    {
+                        "text": "|This test was developed and its performance characteristics"
+                    },
+                    {
+                        "text": "|determined by ARUP Laboratories. It has not been cleared or"
+                    },
+                    {
+                        "text": "|approved by the US Food and Drug Administration. This test was"
+                    },
+                    {
+                        "text": "|performed in a CLIA certified laboratory and is intended for"
+                    },
+                    {
+                        "text": "|clinical purposes."
+                    },
+                    {
+                        "text": "|Performed By: ARUP Laboratories"
+                    },
+                    {
+                        "text": "|500 Chipeta Way"
+                    },
+                    {
+                        "text": "|Salt Lake City, UT 84108"
+                    },
+                    {
+                        "text": "|Laboratory Director: Jonathan R. Genzen, MD, PhD"
+                    },
+                    {
+                        "text": "|CLIA Number: 46D0523979"
+                    }
+                ]
+            }
+        }
+    ]
+}

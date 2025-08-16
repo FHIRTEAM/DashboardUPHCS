@@ -1,0 +1,783 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "185",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "185"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Peterson",
+                        "given": [
+                            "Sarah"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-07-30",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 7.91,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.0
+                        },
+                        "high": {
+                            "value": 11.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 5.17,
+                    "unit": "M/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "M/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4.3
+                        },
+                        "high": {
+                            "value": 5.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 16.3,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 13.0
+                        },
+                        "high": {
+                            "value": 17.7
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 49.4,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 37.8
+                        },
+                        "high": {
+                            "value": 51.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 95.6,
+                    "unit": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 81.5
+                        },
+                        "high": {
+                            "value": 99.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 31.5,
+                    "unit": "pg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 27.7
+                        },
+                        "high": {
+                            "value": 33.4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 33.0,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 31.7
+                        },
+                        "high": {
+                            "value": 35.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 14.4,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.5
+                        },
+                        "high": {
+                            "value": 15.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 204.0,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 140.0
+                        },
+                        "high": {
+                            "value": 410.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 9.4,
+                    "unit": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "fL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.2
+                        },
+                        "high": {
+                            "value": 11.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 64.9,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 22.4,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 8.5,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 3.7,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.4,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.1,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 5.14,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.85
+                        },
+                        "high": {
+                            "value": 7.6
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 1.77,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.85
+                        },
+                        "high": {
+                            "value": 3.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.67,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.2
+                        },
+                        "high": {
+                            "value": 0.9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.29,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.55
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.03,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.15
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.01,
+                    "unit": "K/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "K/uL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 0.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109H0016Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB2411",
+                            "display": "CBC WITH AUTO DIFFERENTIAL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

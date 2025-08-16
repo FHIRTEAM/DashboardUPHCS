@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "164",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "164"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN223",
+                        "given": [
+                            "FN223"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-05-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498629241",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0038",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Creatinine",
+                            "display": "Creat"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/164"
+                },
+                "valueQuantity": {
+                    "value": 1.2,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

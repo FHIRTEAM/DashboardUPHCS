@@ -1,0 +1,943 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "185",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "185"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN243",
+                        "given": [
+                            "FN243"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1951-03-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAURIUM",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.1L2595733.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "33762-6",
+                            "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 496.0,
+                    "unit": "PG/ML^PG/ML^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "PG/ML^PG/ML^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|REFERENCE RANGE CHANGE JANUARY 2023|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|EMERGENCY DEPARTMENT SETTINGS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|For patients presenting to the ED settings with acute or|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|worsening dyspnea and clinical suspicion of HF, the VITROS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|NT-proBNP II test results should be interpreted as indicated|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|in the table below: |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|VITROS NT-proBNP      AGE GROUP       INTERPRETATION OF|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|RESULT (pg/mL)         (years)             RESULTS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|-----------------     ----------     -----------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|      <300               ALL              NEGATIVE: |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                                     Heart Failure Unlikely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|-----------------     -----------    -----------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                                           Gray Zone|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| >300 to <450           22-<50           INDETERMINATE:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| >300 to <900           50-<75       Consider other causes|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| >300 to <1800           >75         of NT-proBNP elevation|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|-----------------    ------------    -----------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|      >450              22-<50              POSITIVE:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|      >900              50-<75        Heart Failure Likely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|     >1800               >75|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|----------------    -------------   ------------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|*Natriuretic peptides values in the gray zone could also be|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|caused by several conditions other than heart failure.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Clinical conditions such as acute coronary syndrome,|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|pulmonary hypertension, sepsis, stroke, and renal|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|dysfunction will elevate NT-proBNP levels.  Obesity, flash|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|pulmonary edema, cardiac tamponade, and pericardial|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|constriction are conditions associated with a reduced|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|NT-proBNP. |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|OUTPATIENT SETTINGS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|For ambulatory patients presenting to outpatient facilities|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|with clinical suspicion of HF not previously dianosed and|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|at least one sign, symptom or risk factor for HF, the VITROS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|NT-proBNP II test results should be interpreted as indicated|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|in the table below:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|VITROS NT-proBNP      Age Group     Interpretation of |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Results (pg/mL)        (years)           Results|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|-----------------     ---------    -------------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|    <125                 ALL              NEGATIVE:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                                    Heart Failure Unlikely|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|-----------------     ---------    -------------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|    >=125                ALL        Consider Heart Failure|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                                    as well as other causes|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                                    of NT-proBNP elevation|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|-----------------     ---------    -------------------------|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|*Natriuretic peptides value elevations could also be caused|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|by several conditions other than heart failure such as acute|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|coronary syndrome, pulmonary embolism, pulmonary|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|hypertension, sepsis, stroke, and renal dysfunction.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Comment: CARDIO VA AUTH VA 0034309403 2/20/24-8/18/24|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Dx? i2510|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 899.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 12.0,
+                    "unit": "mEq/L^mEq/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L^mEq/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 16.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 4.6,
+                    "unit": "G/DL^G/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "G/DL^G/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 89.0,
+                    "unit": "U/L^U/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 38.0
+                        },
+                        "high": {
+                            "value": 126.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 21.0,
+                    "unit": "U/L^U/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 49.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 25.0,
+                    "unit": "U/L^U/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L^U/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 17.0
+                        },
+                        "high": {
+                            "value": 59.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 16.0,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 9.0
+                        },
+                        "high": {
+                            "value": 20.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 9.5,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.4
+                        },
+                        "high": {
+                            "value": 10.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 106.0,
+                    "unit": "MMOL/L^MMOL/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MMOL/L^MMOL/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 98.0
+                        },
+                        "high": {
+                            "value": 107.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 24.0,
+                    "unit": "MMOL/L^MMOL/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MMOL/L^MMOL/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 22.0
+                        },
+                        "high": {
+                            "value": 30.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 1.0,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.7
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 79.0,
+                    "unit": "mL/min^mL/min^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mL/min^mL/min^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|**IMPORTANT:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|The 2021 CKD-EPI equation is now the recommended standard. |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|This version does not include race, as do the 2009 and 2012|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|CKD-EPI creatinine and creatinine-cystatin C equations.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|For the same creatinine value, the 2021 equation will|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|estimate a lower GFR for Black patients and a higher GFR for|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|non-Black patients as compared to previous calculations.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Calculated GFR:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|This calculated GFR is advocated by the National Kidney|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Foundation to be used as an indicator of Chronic Kidney|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Disease (CKD).  5 Stages of Chronic Kidney Disease:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Stage 1:  90 mL/min or more    Healthy kidneys or kidney|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                               damamge with normal or high |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                               GFR details|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Stage 2:  60 to 89 mL/min      Kidney damage and mild|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                               decrease in GFR details|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Stage 3:  30 to 59 mL/min      Moderate decrease in GFR|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                               details|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Stage 4:  15 to 29 mL/min      Severe decrease in GFR|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|                               details|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Stage 5:  Less than 15 mL/min  On Dialysis or Kidney failure|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L| |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|PATIENT'S CLINICAL STATUS MUST BE CONSIDERED FOR THE CARE OF|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|YOUR PATIENT.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 127.0,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|PATIENTS ADMINISTERED NAC (N-ACETYLCYSTEINE), DEXTRAN 40, OR|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|GLUCATHIONE COULD POTENTIALLY HAVE BIASED GLUCOSE SAMPLE |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|RESULTS. CLINICAL CORRELATION IS RECOMMENDED.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 65.0
+                        },
+                        "high": {
+                            "value": 110.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 4.7,
+                    "unit": "MMOL/L^MMOL/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MMOL/L^MMOL/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 142.0,
+                    "unit": "MMOL/L^MMOL/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MMOL/L^MMOL/L^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 137.0
+                        },
+                        "high": {
+                            "value": 145.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 0.6,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.2
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.2L2595733.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24323-8",
+                            "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 8.2,
+                    "unit": "G/DL^G/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "G/DL^G/DL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|Comment: CARDIO VA AUTH VA 0034309403 2/20/24-8/18/24|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Dx? i2510|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.3
+                        },
+                        "high": {
+                            "value": 8.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0220C00125R.3L2595733.3",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "11579-0",
+                            "display": "Thyrotropin [Units/volume] in Serum or Plasma by Detection limit  lt;= 0.05 mIU/L"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 1.94,
+                    "unit": "uIU/ML^uIU/ML^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "uIU/ML^uIU/ML^L^^^^5.67"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.46
+                        },
+                        "high": {
+                            "value": 4.68
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

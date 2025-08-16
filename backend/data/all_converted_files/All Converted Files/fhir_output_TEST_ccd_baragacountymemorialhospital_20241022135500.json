@@ -1,0 +1,227 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "38",
+        "name": [
+          {
+            "use": "official",
+            "family": "Price",
+            "given": [
+              "Layla"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a4c1fa4d-3b4e-4ac8-b3f5-2e0c67f63c18",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco Smoking Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "47d39e87-ba50-44d1-a7b0-a49826319cad",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76689-9",
+              "display": "Sex Assigned At Birth"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        },
+        "effectiveDateTime": "19751029"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "eadceecd-0ace-4f01-9fd3-f4d50bb500f8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55607006",
+              "display": "Problem"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "10da1d75-62de-4d43-bc1a-d0bef1b3b59f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55607006",
+              "display": "Problem"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0c446db2-3668-4a24-9170-e40f8633de87",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55607006",
+              "display": "Problem"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9fac5482-801b-4495-b4e3-5d980e2beb67",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55607006",
+              "display": "Problem"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "951df0a9-ed04-46e2-b9ba-8acc4cac7612",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "ASSERTION",
+              "display": null
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f062fef3-0091-4e0d-bf36-04196d35c014",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "128200000",
+              "display": "Complex regional pain syndrome"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "70bc1e18-4db0-41fd-8354-6acf04a96da1",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "48724000",
+              "display": "Mitral valve regurgitation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "687b478d-fdba-4cd0-a51b-c96d7af613d3",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "427951003",
+              "display": "History of radiofrequency ablation operation for arrhythmia"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d2600877-f346-4d0a-98ba-2f794b558304",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "3424008",
+              "display": "Tachycardia"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/38"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "181",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "181"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN239",
+                        "given": [
+                            "FN239"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2007-09-16",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GLADSTONE",
+                        "state": "MI",
+                        "postalCode": "49837",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-065MC00056",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-065MC00056",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-065MC00056",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-065MC00056",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB7172",
+                            "display": "RSV,SARS-COV-2,INFLUENZA A\\T\\B BY PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|This test was performed by a Reverse Transcription PCR Method."
+                    }
+                ]
+            }
+        }
+    ]
+}

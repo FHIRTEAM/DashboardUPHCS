@@ -1,0 +1,206 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "27",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "27"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN87",
+                        "given": [
+                            "FN87"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1990-02-03",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "NORWAY",
+                        "state": "MI",
+                        "postalCode": "49870",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1751232LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "RESPP",
+                            "display": "Cepheid 4 plex"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/27"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L|Not detected results do not preclude SARS-COV2 infection and should not|RE"
+                    },
+                    {
+                        "text": "L|be used as the sole basis for patient management decisions. Negative|RE"
+                    },
+                    {
+                        "text": "L|results must be combined with clinical observations, patient history,|RE"
+                    },
+                    {
+                        "text": "L|and epidemiological information.|RE"
+                    },
+                    {
+                        "text": "L|False negative results may occur if virus is present at levels below|RE"
+                    },
+                    {
+                        "text": "L|the analytical limit of detection.|RE"
+                    },
+                    {
+                        "text": "L|Results from the Xpert Xpress/Roche Liat SARS-CoV-2 test should be |RE"
+                    },
+                    {
+                        "text": "L|correlated with  the clinical history, epidemiological data, and other data|RE"
+                    },
+                    {
+                        "text": "L|available to the clinician evaluating the patient.|RE"
+                    },
+                    {
+                        "text": "L|This test has been authorized by the FDA under an Emergency Use|RE"
+                    },
+                    {
+                        "text": "L|Authorization (EUA). This test is only authorized for the duration of|RE"
+                    },
+                    {
+                        "text": "L|time the declaration that circumstances exist justifying the|RE"
+                    },
+                    {
+                        "text": "L|authorization of an emergency use of in vitro diagnostic tests for the|RE"
+                    },
+                    {
+                        "text": "L|detection of SARS-CoV-2 infection under section 564(b) (1) of the Act,|RE"
+                    },
+                    {
+                        "text": "L|21 U.S.C. 360bb-3(b) (1), unless the authorization is terminated or|RE"
+                    },
+                    {
+                        "text": "L|revoked sooner.|RE"
+                    },
+                    {
+                        "text": "L|Information for Healthcare Providers:|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    },
+                    {
+                        "text": "L|https://www.fda.gov/media/134920/download|RE"
+                    },
+                    {
+                        "text": "L|Information for Patients:  https://www.fda.gov/media/134921/download|RE"
+                    },
+                    {
+                        "text": "L||RE"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1751232LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "RESPP",
+                            "display": "Cepheid 4 plex"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/27"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1751232LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "RESPP",
+                            "display": "Cepheid 4 plex"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/27"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1751232LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "RESPP",
+                            "display": "Cepheid 4 plex"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/27"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "152",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "152"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN211",
+                        "given": [
+                            "FN211"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1991-09-10",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621014",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-035-0048",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Alcohol Level",
+                            "display": "Ethanol"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/152"
+                },
+                "valueQuantity": {
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|Etoh levels less than 10.0 are considered Negative."
+                    }
+                ]
+            }
+        }
+    ]
+}

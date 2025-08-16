@@ -1,0 +1,169 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "8",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "8"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN26",
+                        "given": [
+                            "FN26"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1998-06-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GWINN",
+                        "state": "MI",
+                        "postalCode": "49841",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1227RL00020R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "IMO0002",
+                            "display": "Hepatitis C viral load measurement by PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/8"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|Assay quantifiable range is 10 to 100,000,000 IU/mL (1.00 TO|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|8.00 LOG IU/mL). Targets detected below the lower limit of|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|quanitification are reported as less than 10 IU/mL (1.00 log|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|IU/mL). Targets detected above the upper limit of|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|quantification are reported as greater than 100,000,000|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|IU/mL (8.00 Log IU/mL). Testing was performed using the|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Hologic Aptima HCV Assay by TMA on the Panther system.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Michigan PA 306 and 308 requires the doctor to report this|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|organism to the local Health Department.|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1227RL00020R-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "IMO0002",
+                            "display": "Hepatitis C viral load measurement by PCR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/8"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1227RL00020R-2LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "13955-0",
+                            "display": "Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/8"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "L|Possibly indicates past or present HCV infection. The sample had a high|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|specimen/cut-off ratio and usually (>=95%) confirm positive, but in <5|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|of every 100, the patient does not have disease. Confirmatory testing by|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|PCR is recommended.  Mich PA 306 and 308 requires the doctor to report|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|HCV positive cases to the local health department.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Test Performed By:|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|UPHS-Marquette Laboratory|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Ave.|RE^Remark^HL70364^^^^2.5.1|"
+                    },
+                    {
+                        "text": "L|Marquette, Michigan 49855|RE^Remark^HL70364^^^^2.5.1|"
+                    }
+                ]
+            }
+        }
+    ]
+}

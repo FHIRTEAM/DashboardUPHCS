@@ -1,0 +1,131 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "32",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "32"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN95",
+                        "given": [
+                            "FN95"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1983-04-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24030571654LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CTG",
+                            "display": "Cand-Trich-Gard DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/32"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24030571654LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CTG",
+                            "display": "Cand-Trich-Gard DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/32"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24030571654LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CTG",
+                            "display": "Cand-Trich-Gard DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/32"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24030571654LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "CTG",
+                            "display": "Cand-Trich-Gard DNA Probe"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/32"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

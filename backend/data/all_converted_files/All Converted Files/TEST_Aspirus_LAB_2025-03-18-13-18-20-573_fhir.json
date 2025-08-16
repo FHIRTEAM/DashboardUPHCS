@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "6",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "6"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN20",
+                        "given": [
+                            "FN20"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1946-01-28",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25KH-077H0055Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB322",
+                            "display": "SEDIMENTATION RATE"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/6"
+                },
+                "valueQuantity": {
+                    "value": 19.0,
+                    "unit": "mm/Hr",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm/Hr"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 20.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

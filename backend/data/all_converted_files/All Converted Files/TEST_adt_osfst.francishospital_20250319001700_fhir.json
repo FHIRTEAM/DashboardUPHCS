@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "337",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "337"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN241",
+                        "given": [
+                            "FN241"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1932-07-17",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "WELLS",
+                        "state": "MI",
+                        "postalCode": "49894",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I50.9^Heart failure, unspecified^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/337"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I50.9^Heart failure, unspecified^ICD-10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/337"
+                }
+            }
+        }
+    ]
+}

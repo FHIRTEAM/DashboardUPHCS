@@ -1,0 +1,206 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "193",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "193"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN268",
+                        "given": [
+                            "FN268"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1974-01-19",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "HANCOCK",
+                        "state": "MI",
+                        "postalCode": "49930",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0205R00010R.1L2739414.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "13965-9",
+                            "display": "Homocysteine [Moles/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/193"
+                },
+                "valueQuantity": {
+                    "value": 8.1,
+                    "unit": "mcmol/L^mcmol/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mcmol/L^mcmol/L^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|   |RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Test Performed at:|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|UP Health System Marquette|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|850 West Baraga Avenue|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Marquette, MI 49855-4550|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Medical Director: Jeffrey Conklin, MD  CLIA: 23D0038098|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Dx? E538|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Comment: REDRAW LABS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 5.0
+                        },
+                        "high": {
+                            "value": 12.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0205R00010R.2L2739414.2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "31444-3",
+                            "display": "Intrinsic factor blocking Ab [Presence] in Serum"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/193"
+                },
+                "valueQuantity": {
+                    "unit": "AU/mL^AU/mL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "AU/mL^AU/mL^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|Performed at:  01 - Labcorp Burlington|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|1447 York Court, Burlington, NC  272153361|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Lab Director: Sanjai Nagendra MD, Phone:  8007624344|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Dx? E538|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Comment: REDRAW LABS|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 1.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0205R00010R.3L2739414.3",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "13964-2",
+                            "display": "Methylmalonate [Moles/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/193"
+                },
+                "valueQuantity": {
+                    "value": 198.0,
+                    "unit": "nmol/L^nmol/L^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "nmol/L^nmol/L^L^^^^5.67"
+                },
+                "note": [
+                    {
+                        "text": "L|This test was developed and its performance characteristics|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|determined by Labcorp. It has not been cleared or|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|approved by the Food and Drug Administration.|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Performed at:  01 - Labcorp Burlington|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|1447 York Court, Burlington, NC  272153361|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    },
+                    {
+                        "text": "L|Lab Director: Sanjai Nagendra MD, Phone:  8007624344|RE^Remark^HL70364^C^Comment^L^2.5.1^5.67|"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.0
+                        },
+                        "high": {
+                            "value": 378.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

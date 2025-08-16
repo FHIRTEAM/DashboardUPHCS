@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "183",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "183"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Cook",
+                        "given": [
+                            "Samantha"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-05-10",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "PELKIE",
+                        "state": "MI",
+                        "postalCode": "49958",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24WH-065M0223Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB251",
+                            "display": "KOH PREP"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/183"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

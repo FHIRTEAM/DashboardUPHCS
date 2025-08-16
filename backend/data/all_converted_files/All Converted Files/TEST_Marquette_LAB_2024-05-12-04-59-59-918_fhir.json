@@ -1,0 +1,107 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "38",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "38"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN101",
+                        "given": [
+                            "FN101"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1966-01-07",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086906024LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "AFBC",
+                            "display": "Culture Mycobacterium (AFB)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/38"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086906024LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "AFBC",
+                            "display": "Culture Mycobacterium (AFB)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/38"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24086906024LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "AFBC",
+                            "display": "Culture Mycobacterium (AFB)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/38"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

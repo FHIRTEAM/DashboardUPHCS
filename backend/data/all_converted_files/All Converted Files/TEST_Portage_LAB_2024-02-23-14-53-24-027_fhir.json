@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "161",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "161"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Reed",
+                        "given": [
+                            "Jack"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1955-10-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "PELKIE",
+                        "state": "MI",
+                        "postalCode": "49958",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0223C00056R.1L2597102.1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "53531-0",
+                            "display": "Microalbumin [Mass/volume] in Urine by Detection limit  lt;= 1.0 mg/L"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/161"
+                },
+                "valueQuantity": {
+                    "value": 77.1,
+                    "unit": "MG/DL^MG/DL^L^^^^5.67",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "MG/DL^MG/DL^L^^^^5.67"
+                }
+            }
+        }
+    ]
+}

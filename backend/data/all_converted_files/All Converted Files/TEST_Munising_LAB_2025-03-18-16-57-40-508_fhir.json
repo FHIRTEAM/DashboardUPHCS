@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "159",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "159"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN218",
+                        "given": [
+                            "FN218"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-08-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498621130",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0012",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Magnesium Level",
+                            "display": "Mg"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/159"
+                },
+                "valueQuantity": {
+                    "value": 2.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

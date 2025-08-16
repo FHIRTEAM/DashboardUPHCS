@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "191",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "191"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Davis",
+                        "given": [
+                            "Emma"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1937-07-01",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CHASSELL",
+                        "state": "MI",
+                        "postalCode": "49916",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-284C0049Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB149",
+                            "display": "C-REACTIVE PROTEIN"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/191"
+                },
+                "valueQuantity": {
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

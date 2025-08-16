@@ -1,0 +1,116 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "158",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "158"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN217",
+                        "given": [
+                            "FN217"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1948-10-20",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "WETMORE",
+                        "state": "MI",
+                        "postalCode": "498959213",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-062-0036",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Miscellaneous UPHS",
+                            "display": "Miscellaneous UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/158"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-062-0036",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Miscellaneous UPHS",
+                            "display": "Miscellaneous UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/158"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-062-0036",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Miscellaneous UPHS",
+                            "display": "Miscellaneous UPHS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/158"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "note": [
+                    {
+                        "text": "Missing Result Attachment|Missing Attachment Reference Lab Report Can be viewed in source system"
+                    }
+                ]
+            }
+        }
+    ]
+}

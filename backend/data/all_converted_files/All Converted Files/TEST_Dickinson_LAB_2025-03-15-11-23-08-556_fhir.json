@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "20",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "20"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN63",
+                        "given": [
+                            "FN63"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1954-10-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CHANNING",
+                        "state": "MI",
+                        "postalCode": "49815",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25073210464LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "SPATH",
+                            "display": "Surgical Pathology"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/20"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

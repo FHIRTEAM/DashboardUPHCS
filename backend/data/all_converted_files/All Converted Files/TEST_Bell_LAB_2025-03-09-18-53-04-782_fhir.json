@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "14",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "14"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN45",
+                        "given": [
+                            "FN45"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2000-02-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ISHPEMING",
+                        "state": "MI",
+                        "postalCode": "49849",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0309S00004S-1LAB.BLH2.16.840.1.113883.3.4042ISO",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2106-3",
+                            "display": "Choriogonadotropin (pregnancy test) [Presence] in Urine"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/14"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

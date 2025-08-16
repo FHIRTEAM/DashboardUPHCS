@@ -1,0 +1,86 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "35",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "35"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Young",
+                        "given": [
+                            "Benjamin"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^2017139",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^2017139",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LANSE",
+                        "state": "MI",
+                        "postalCode": "49946",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 68.0,
+                    "unit": "unknown"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "ST"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 280.0,
+                    "unit": "unknown"
+                }
+            }
+        }
+    ]
+}

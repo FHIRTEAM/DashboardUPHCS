@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "4",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "4"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN11",
+                        "given": [
+                            "FN11"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1992-06-30",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRON RIVER",
+                        "state": "MI",
+                        "postalCode": "49935",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25IR-073C0006Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB129",
+                            "display": "TSH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/4"
+                },
+                "valueQuantity": {
+                    "value": 0.14,
+                    "unit": "uIU/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "uIU/mL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.6
+                        },
+                        "high": {
+                            "value": 5.4
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

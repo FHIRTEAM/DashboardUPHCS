@@ -1,0 +1,62 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "178",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "178"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Bowers",
+                        "given": [
+                            "Bradley"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2004-09-19",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "FOWLERVILLE",
+                        "state": "MI",
+                        "postalCode": "48836"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I51.9^HEART DISEASE, UNSPECIFIED^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/178"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "10",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "10"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Harris",
+                        "given": [
+                            "Lucas"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^3537306",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^3537306",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "5555555555^PRN^PH^^1^906^3537306",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "PELKIE",
+                        "state": "MI",
+                        "postalCode": "49958",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "R0602^Shortness of breath^I10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/10"
+                }
+            }
+        }
+    ]
+}

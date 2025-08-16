@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "169",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "169"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN228",
+                        "given": [
+                            "FN228"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1984-08-29",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "EBEN JUNCTION",
+                        "state": "MI",
+                        "postalCode": "498250114",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0054",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Ferritin",
+                            "display": "Ferritin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169"
+                },
+                "valueQuantity": {
+                    "value": 191.0,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/mL"
+                }
+            }
+        }
+    ]
+}

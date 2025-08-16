@@ -1,0 +1,379 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "185",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "185"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Peterson",
+                        "given": [
+                            "Sarah"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1956-07-30",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CALUMET",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 141.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 133.0
+                        },
+                        "high": {
+                            "value": 144.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 4.4,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 106.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 95.0
+                        },
+                        "high": {
+                            "value": 107.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 29.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 22.0
+                        },
+                        "high": {
+                            "value": 32.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 6.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.0
+                        },
+                        "high": {
+                            "value": 15.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 24.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.0
+                        },
+                        "high": {
+                            "value": 24.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 1.25,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.55
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 63.0,
+                    "unit": "mL/min",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mL/min"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 109.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 70.0
+                        },
+                        "high": {
+                            "value": 100.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-109C0030Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB15",
+                            "display": "BASIC METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/185"
+                },
+                "valueQuantity": {
+                    "value": 9.4,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.6
+                        },
+                        "high": {
+                            "value": 10.4
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

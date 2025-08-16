@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "271",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "271"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN247",
+                        "given": [
+                            "FN247"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1954-10-31",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAURIUM",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "^TAVR^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/271"
+                }
+            }
+        }
+    ]
+}

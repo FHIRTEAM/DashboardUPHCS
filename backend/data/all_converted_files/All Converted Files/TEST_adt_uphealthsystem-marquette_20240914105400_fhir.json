@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "90",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "90"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Howard",
+                        "given": [
+                            "Lillian"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1961-10-16",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "DODGEVILLE",
+                        "state": "MI",
+                        "postalCode": "499219754",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "I61.5^Nontraumatic intracerebral hemorrhage, intraventricular^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/90"
+                }
+            }
+        }
+    ]
+}

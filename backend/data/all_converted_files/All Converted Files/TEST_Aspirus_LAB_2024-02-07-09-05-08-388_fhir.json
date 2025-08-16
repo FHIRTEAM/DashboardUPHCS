@@ -1,0 +1,649 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "181",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "181"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Clark",
+                        "given": [
+                            "Liam"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1963-07-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAURIUM",
+                        "state": "MI",
+                        "postalCode": "49913",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 135.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 133.0
+                        },
+                        "high": {
+                            "value": 144.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 4.3,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 105.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 95.0
+                        },
+                        "high": {
+                            "value": 107.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 22.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 22.0
+                        },
+                        "high": {
+                            "value": 32.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 8.0,
+                    "unit": "mEq/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mEq/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.0
+                        },
+                        "high": {
+                            "value": 15.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 17.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.0
+                        },
+                        "high": {
+                            "value": 24.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 1.27,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.55
+                        },
+                        "high": {
+                            "value": 1.3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 65.0,
+                    "unit": "mL/min",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mL/min"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 204.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 70.0
+                        },
+                        "high": {
+                            "value": 100.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 9.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.6
+                        },
+                        "high": {
+                            "value": 10.4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 55.0,
+                    "unit": "IU/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "IU/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.0
+                        },
+                        "high": {
+                            "value": 41.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 41.0,
+                    "unit": "IU/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "IU/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 11.0
+                        },
+                        "high": {
+                            "value": 66.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 105.0,
+                    "unit": "IU/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "IU/L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 35.0
+                        },
+                        "high": {
+                            "value": 121.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 0.4,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 4.1,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 7.7,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 6.2
+                        },
+                        "high": {
+                            "value": 8.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 3.6,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.8
+                        },
+                        "high": {
+                            "value": 3.7
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-038C0014Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB17",
+                            "display": "COMPREHENSIVE METABOLIC PANEL"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/181"
+                },
+                "valueQuantity": {
+                    "value": 1.1,
+                    "unit": "NA^^HL70353",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "NA^^HL70353"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.2
+                        },
+                        "high": {
+                            "value": 2.7
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

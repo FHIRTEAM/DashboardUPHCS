@@ -1,0 +1,64 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "227",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "227"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN321",
+                        "given": [
+                            "FN321"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1943-10-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GERMFASK",
+                        "state": "MI",
+                        "postalCode": "498369012",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-066-0092",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "NT- Pro BNP",
+                            "display": "NT-Pro BNP"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/227"
+                },
+                "valueQuantity": {
+                    "value": 681.0,
+                    "unit": "pg/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "pg/mL"
+                }
+            }
+        }
+    ]
+}

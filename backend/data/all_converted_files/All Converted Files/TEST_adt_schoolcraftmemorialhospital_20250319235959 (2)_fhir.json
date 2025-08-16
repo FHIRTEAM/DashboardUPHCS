@@ -1,0 +1,46 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "345",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "345"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN404",
+                        "given": [
+                            "FN404"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5555555555^Home^Tel",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1950-10-14",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "49854-8804",
+                        "country": "US"
+                    }
+                ]
+            }
+        }
+    ]
+}

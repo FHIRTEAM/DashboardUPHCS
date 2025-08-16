@@ -1,0 +1,83 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "179",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "179"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Jennings",
+                        "given": [
+                            "Russell"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1987-01-12",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "DOLLAR BAY",
+                        "state": "MI",
+                        "postalCode": "49922",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24KH-002C0117Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB139",
+                            "display": "TROPONIN T, HS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/179"
+                },
+                "valueQuantity": {
+                    "unit": "ng/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/L"
+                },
+                "note": [
+                    {
+                        "text": "|         Reference Range            Interpretation"
+                    },
+                    {
+                        "text": "|         ---------------------      --------------------------"
+                    },
+                    {
+                        "text": "|         Less than 12     ng/L      Normal"
+                    },
+                    {
+                        "text": "|         12-51            ng/L      Nonspecific myocardial injury"
+                    },
+                    {
+                        "text": "|         Greater than 51  ng/L      Abnormal; consistent with acute"
+                    },
+                    {
+                        "text": "|                                    myocardial infarction"
+                    }
+                ]
+            }
+        }
+    ]
+}

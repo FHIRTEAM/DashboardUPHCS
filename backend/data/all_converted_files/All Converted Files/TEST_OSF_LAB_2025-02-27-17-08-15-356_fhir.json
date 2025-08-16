@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "180",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "180"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN238",
+                        "given": [
+                            "FN238"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2014-08-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ESCANABA",
+                        "state": "MI",
+                        "postalCode": "49829",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25SE-058MC00052",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB8476",
+                            "display": "GROUP A STREP BY MOLECULAR"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/180"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

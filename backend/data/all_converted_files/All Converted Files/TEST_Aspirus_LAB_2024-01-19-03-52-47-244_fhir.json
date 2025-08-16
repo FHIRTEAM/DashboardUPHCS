@@ -1,0 +1,84 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "180",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "180"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Long",
+                        "given": [
+                            "Nolan"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1996-12-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "ONTONAGON",
+                        "state": "MI",
+                        "postalCode": "49953",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "24OH-019C0002Beaker",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LAB139",
+                            "display": "TROPONIN T, HS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/180"
+                },
+                "valueQuantity": {
+                    "value": 6.0,
+                    "unit": "ng/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "ng/L"
+                },
+                "note": [
+                    {
+                        "text": "|         Reference Range            Interpretation"
+                    },
+                    {
+                        "text": "|         ---------------------      --------------------------"
+                    },
+                    {
+                        "text": "|         Less than 12     ng/L      Normal"
+                    },
+                    {
+                        "text": "|         12-51            ng/L      Nonspecific myocardial injury"
+                    },
+                    {
+                        "text": "|         Greater than 51  ng/L      Abnormal; consistent with acute"
+                    },
+                    {
+                        "text": "|                                    myocardial infarction"
+                    }
+                ]
+            }
+        }
+    ]
+}

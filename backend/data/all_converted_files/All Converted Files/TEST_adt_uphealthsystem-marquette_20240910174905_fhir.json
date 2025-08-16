@@ -1,0 +1,87 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "97",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "97"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Torres",
+                        "given": [
+                            "Ryan"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1996-12-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "LAKE LINDEN",
+                        "state": "MI",
+                        "postalCode": "49945",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "G35^Multiple sclerosis^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/97"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Condition",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/us-icd-10",
+                            "code": "G35^Multiple sclerosis^ICD10"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/97"
+                }
+            }
+        }
+    ]
+}

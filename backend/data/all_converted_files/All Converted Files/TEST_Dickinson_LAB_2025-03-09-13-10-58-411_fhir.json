@@ -1,0 +1,434 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "24",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "24"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN77",
+                        "given": [
+                            "FN77"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1997-06-25",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "IRON MOUNTAIN",
+                        "state": "MI",
+                        "postalCode": "49801",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 81.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "note": [
+                    {
+                        "text": "L|The American Diabetes Association recommends a reference range of 70-100 mg/dL for fasting blood glucose.|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 74.0
+                        },
+                        "high": {
+                            "value": 106.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 7.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 17.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 0.6,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.52
+                        },
+                        "high": {
+                            "value": 1.04
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 120.0,
+                    "unit": "mL/min/1.73 m2^mL/min/1.73 m2^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mL/min/1.73 m2^mL/min/1.73 m2^L"
+                },
+                "note": [
+                    {
+                        "text": "L|Estimated GFR is calculated according to NKDEP recommendations using the MDRD equation.  Results are less accurate for persons with normal or mildly impaired kidney function (results > 60 mL/min/1.73 m2).|RE"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 61.0
+                        },
+                        "high": {
+                            "value": 166.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 12.0,
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 7.0
+                        },
+                        "high": {
+                            "value": 25.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 138.0,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 137.0
+                        },
+                        "high": {
+                            "value": 145.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 3.9,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5
+                        },
+                        "high": {
+                            "value": 5.1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 103.0,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 98.0
+                        },
+                        "high": {
+                            "value": 107.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 24.0,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 22.0
+                        },
+                        "high": {
+                            "value": 30.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 14.9,
+                    "unit": "mmol/L^mmol/L^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mmol/L^mmol/L^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 2.0
+                        },
+                        "high": {
+                            "value": 16.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "TSYS1748803LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "BASIC",
+                            "display": "Basic Metabolic Panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/24"
+                },
+                "valueQuantity": {
+                    "value": 9.3,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 8.4
+                        },
+                        "high": {
+                            "value": 10.2
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

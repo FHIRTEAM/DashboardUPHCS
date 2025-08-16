@@ -1,0 +1,74 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "20",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "20"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN63",
+                        "given": [
+                            "FN63"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1954-10-26",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "CHANNING",
+                        "state": "MI",
+                        "postalCode": "49815",
+                        "country": "USA"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "25019173691LA01",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "MG",
+                            "display": "Magnesium"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/20"
+                },
+                "valueQuantity": {
+                    "value": 2.0,
+                    "unit": "mg/dL^mg/dL^L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL^mg/dL^L"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 1.6
+                        },
+                        "high": {
+                            "value": 2.3
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

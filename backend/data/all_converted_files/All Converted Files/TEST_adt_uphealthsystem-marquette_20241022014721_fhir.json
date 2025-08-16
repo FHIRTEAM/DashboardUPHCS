@@ -1,0 +1,39 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "111",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "111"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Thompson",
+                        "given": [
+                            "Michael"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1980-07-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "GREEN BAY",
+                        "state": "WI",
+                        "postalCode": "54303",
+                        "country": "US"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "218",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "218"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN313",
+                        "given": [
+                            "FN313"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1930-10-24",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498548849",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-041-0159",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Thyroid Stimulating Hormone",
+                            "display": "TSH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/218"
+                },
+                "valueQuantity": {
+                    "value": 2.16,
+                    "unit": "mcIntlUnit/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mcIntlUnit/mL"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|HIGH LEVELS OF BIOTIN MAY INTERFERE WITH RESULT. MITIGATIONS INCLUDE CORRELATION TO CLINICAL HISTORY AND PRESENTATION AS WELL AS OTHER DIAGNOSTIC LABORATORY TESTING."
+                    }
+                ]
+            }
+        }
+    ]
+}

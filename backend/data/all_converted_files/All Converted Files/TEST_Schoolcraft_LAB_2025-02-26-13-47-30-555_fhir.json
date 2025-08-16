@@ -1,0 +1,94 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "224",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "224"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN319",
+                        "given": [
+                            "FN319"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1939-11-13",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MANISTIQUE",
+                        "state": "MI",
+                        "postalCode": "498541334",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-057-0029",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Hemoglobin A1c w/eAG",
+                            "display": "Hgb A1c w/eAG"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/224"
+                },
+                "valueQuantity": {
+                    "value": 6.8,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "note": [
+                    {
+                        "text": "Interpretive Data|NATIONAL REFERENCE RANGE\\.br\\ Normal                  below 5.7 percent\\.br\\ Prediabetes             5.7 to 6.4 percent\\.br\\ Diabetes                6.5 percent or above"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "17-25-057-0029",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Hemoglobin A1c w/eAG",
+                            "display": "Hgb A1c w/eAG"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/224"
+                },
+                "valueQuantity": {
+                    "value": 148.0,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        }
+    ]
+}

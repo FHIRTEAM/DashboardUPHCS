@@ -1,0 +1,114 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "142",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "142"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN201",
+                        "given": [
+                            "FN201"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1973-10-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "MUNISING",
+                        "state": "MI",
+                        "postalCode": "498628880",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-254-0014",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Microalbumin/Creatinine Ratio Urine",
+                            "display": "U Microalb/Creat"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/142"
+                },
+                "valueQuantity": {
+                    "value": 34.6,
+                    "unit": "mg/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/L"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-254-0014",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Microalbumin/Creatinine Ratio Urine",
+                            "display": "U Microalb/Creat"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/142"
+                },
+                "valueQuantity": {
+                    "value": 73.28,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-24-254-0014",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Microalbumin/Creatinine Ratio Urine",
+                            "display": "U Microalb/Creat"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/142"
+                },
+                "valueQuantity": {
+                    "value": 47.0,
+                    "unit": "mg/g",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/g"
+                }
+            }
+        }
+    ]
+}

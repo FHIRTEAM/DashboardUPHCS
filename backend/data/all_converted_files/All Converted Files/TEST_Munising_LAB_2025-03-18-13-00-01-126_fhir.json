@@ -1,0 +1,111 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "144",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "144"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN203",
+                        "given": [
+                            "FN203"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1945-09-06",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "WETMORE",
+                        "state": "MI",
+                        "postalCode": "498950223",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0009",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urinalysis Microscopic",
+                            "display": "UA Micro"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/144"
+                },
+                "valueQuantity": {
+                    "unit": "/HPF",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/HPF"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0009",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urinalysis Microscopic",
+                            "display": "UA Micro"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/144"
+                },
+                "valueQuantity": {
+                    "unit": "/HPF",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/HPF"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-077-0009",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urinalysis Microscopic",
+                            "display": "UA Micro"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/144"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}

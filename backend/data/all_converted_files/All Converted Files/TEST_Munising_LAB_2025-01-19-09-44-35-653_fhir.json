@@ -1,0 +1,111 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "148",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "value": "148"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "LN207",
+                        "given": [
+                            "FN207"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1997-05-18",
+                "address": [
+                    {
+                        "line": [
+                            "123 STREET ST"
+                        ],
+                        "city": "EBEN JUNCTION",
+                        "state": "MI",
+                        "postalCode": "498250033",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0023",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urinalysis Microscopic",
+                            "display": "UA Micro"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "unit": "/HPF",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/HPF"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0023",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urinalysis Microscopic",
+                            "display": "UA Micro"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "unit": "/HPF",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/HPF"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "01-25-018-0023",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "Urinalysis Microscopic",
+                            "display": "UA Micro"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/148"
+                },
+                "valueQuantity": {
+                    "unit": "unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "unit"
+                }
+            }
+        }
+    ]
+}
